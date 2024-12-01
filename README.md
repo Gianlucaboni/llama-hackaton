@@ -1,5 +1,4 @@
-
-# README: ChefChatBot with LangGraph Agent and Groq-powered LLAMA Model
+#ChefChatBot with LangGraph Agent and Groq-powered LLAMA Model
 
 ## Overview
 
@@ -16,6 +15,81 @@
 2. **LangGraph Framework**:
    - Implements a **StateGraph** for stateful conversations.
    - Allows modular addition of tools and flexible routing based on user input.
+
+## 🛠 Integrated Tools and Functionality
+
+### Tool Overview
+
+The project leverages several powerful tools and APIs to create an intelligent meal planning and nutrition assistance system:
+
+#### 1. Quantity Optimizer Tool (`quantity_optimizer`)
+- **Purpose**: Optimize food quantities based on nutritional goals
+- **Key Features**:
+  - Calculates optimal quantities of foods
+  - Considers target macronutrients (proteins, fats, carbohydrates)
+  - Respects calorie constraints
+  - Utilizes scipy's minimize function for optimization
+- **Input**: Dictionary of foods with nutritional information
+- **Output**: Optimized food quantities with detailed nutritional breakdown
+
+#### 2. Food Information Tool (`food_info`)
+- **Purpose**: Retrieve detailed nutritional information for food items
+- **Key Features**:
+  - Integrates with FatSecret API
+  - Searches for food items by name
+  - Retrieves standardized (100g) nutrient details
+- **Input**: Food name (string)
+- **Output**: Comprehensive nutritional information dictionary
+
+#### 3. Diet Explorer Tool (`diet_explorer`)
+- **Purpose**: Query and explore past dietary habits
+- **Key Features**:
+  - Uses SQLAlchemy for database interactions
+  - Supports natural language queries about diet history
+  - Handles complex query transformations
+- **Input**: Natural language question about diet
+- **Output**: Relevant dietary information from the database
+
+#### 4. Recipe Generator Tool (`recipe_generator`)
+- **Purpose**: Create personalized, nutritionally balanced recipes
+- **Key Features**:
+  - Generates recipes based on user preferences
+  - Follows a strict JSON schema for recipe creation
+  - Integrates with Language Model for creative recipe generation
+- **Input**: User ID, date, meal type, additional requirements
+- **Output**: Structured recipe object
+
+#### 5. Diet Manager Tool (`diet_manager`)
+- **Purpose**: Manage and persist meal information
+- **Key Features**:
+  - Inserts recipe data into SQLite database
+  - Validates and transforms recipe data
+- **Input**: Recipe dictionary
+- **Output**: Confirmed recipe after database insertion
+
+#### 6. Recipe Retrieval Tool (`retrieve_recipes`)
+- **Purpose**: Semantic search for recipes
+- **Key Features**:
+  - Uses Pinecone vector database for similarity search
+  - Generates embeddings with OpenAI's embedding model
+  - Supports metadata-based filtering
+- **Input**: Search query, optional filters
+- **Output**: Most relevant recipe based on semantic similarity
+
+### Technology Stack
+- **Language Models**: Groq (LLaMA)
+- **Vector Database**: Pinecone
+- **Nutritional API**: FatSecret
+- **Optimization**: SciPy
+- **Database**: SQLite
+- **Embedding**: OpenAI
+
+### System Architecture
+The system uses a modular, tool-based approach with:
+- Intelligent agent framework
+- Retrieval-augmented generation
+- Optimization algorithms
+- Semantic search capabilities
 
 3. **Integrated Tools**:
    - **Food Info**: Provides nutritional information about ingredients.
@@ -93,11 +167,12 @@ The core logic is built around a **StateGraph** that defines the flow of message
 
 3. Interact with the chatbot through the Streamlit interface.
 
-
 ## Future Enhancements
 
 1. **Expand Toolset**:
    - Incorporate tools for grocery shopping and allergy checks.
+   - Enhance semantic search capabilities
+   - Improve recipe personalization algorithms
 
 ---
 
