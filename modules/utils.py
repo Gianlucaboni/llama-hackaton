@@ -348,6 +348,8 @@ def diet_explorer(question: str):
     You are an advanced AI agent specialized in answering queries related to dietary habits of userID = "user1"
     Using the schema of a table named `diet` to fetch accurate information. 
 
+    **IMPORTANT **: When possible returns list of unique items rather than many duplicates making use of DISTINCT key word
+
     You don't need to fetch the diet table schema, as that is specified here:
     ### `diet` Table Schema:
 
