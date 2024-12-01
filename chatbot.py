@@ -128,7 +128,7 @@ def handle_user_input(user_input: str):
                 st.session_state.conversation.append(("Agent", m.content,None)) 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~ Streamlit UI setup
-st.title("Nutrition Chatbot")
+st.title("ChefChatBot")
 
 # Add a container for verification message at the top
 verification_container = st.empty()
@@ -165,11 +165,11 @@ if hasattr(st.session_state, 'verification_needed') and st.session_state.verific
             # Show success message
             retrieved_recipe = st.session_state.recipe
             insert_into_diet(retrieved_recipe)
-            verification_container.success("Information verified successfully!")
+            verification_container.success("Meal saved successfully!")
             st.session_state.verification_needed = False
     
     with col2:
         if st.button("Mmm, not sure..."):
             # Show warning message
-            verification_container.warning("Information needs modification. Please refine your query.")
+            # verification_container.warning("Me")
             st.session_state.verification_needed = False
