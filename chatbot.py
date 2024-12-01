@@ -1,5 +1,5 @@
 import streamlit as st
-from typing import Annotated, List, Dict, Literal
+from typing import Annotated, List, Dict
 from typing_extensions import TypedDict
 from langchain_core.messages import HumanMessage, SystemMessage, ToolMessage, AIMessage
 from langgraph.graph import StateGraph
@@ -8,10 +8,9 @@ from langgraph.prebuilt import tools_condition
 from langgraph.checkpoint.memory import MemorySaver
 from modules.utils import BasicToolNode, RecipeSchema, quantity_optimizer, food_info, diet_explorer, retrieve_recipes, recipe_generator ,insert_into_diet,system_message, llm
 from langgraph.graph import END
-from typing import Annotated, List, Dict, Literal, Optional
+from typing import Annotated, List, Dict
 from ast import literal_eval
 import json
-from pydantic import BaseModel, Field
 
 
 # Streamlit session state initialization
