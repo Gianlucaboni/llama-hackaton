@@ -1,0 +1,969 @@
+ingredient_id,ingredient_name
+a6143503-aec7-3a60-a1e3-b01403c90ae8,Manzo
+acedbe26-7141-3346-b100-83146110d004,Sale grosso
+b3513445-f42a-3a53-82dc-2dc6782a6235,Rosmarino
+782cad54-a35c-3eee-95f1-f892852c6d05,Alloro
+cb95dccc-c65e-3aa1-a67a-141bce767bff,Timo
+8bb9fb3e-c490-3ce9-baf4-94e986e1157f,Acqua
+e30b94d7-2677-3267-a3fb-b06b48ceaa64,Zucchero
+3cda6d98-dad4-3969-834b-002e5041f82f,Farina 00
+b3dc3655-5eb3-3ef1-aad9-7cbd1d240c6f,Lievito in polvere per dolci
+75f59929-ea73-3c12-9c6b-0b58747dee21,Sale fino
+c0421b69-b5bf-370d-a453-b2a3c249e2f8,Banane
+2e1d7fc8-9ff1-3691-b5f8-7325d9144b0c,Uova
+9d86273c-49c7-3045-862e-e05cd7305c60,Burro
+b1030499-78cd-344a-8c79-cbf5369ff8d5,Latte intero
+d52c6f26-8a8f-3361-a0a8-6f1451954ddb,Cioccolato fondente
+6f129f19-8734-31d6-b6e0-048e16d9b89d,Biscotti secchi
+889c14c2-bd33-3eb9-83fe-855a8e65528b,Formaggio fresco spalmabile
+d1e0a2d1-19a9-3c4c-80a9-7d7068e7be56,Panna fresca liquida
+8dc79b8c-95d9-300e-a2e3-4f8cfef8ac85,Gelatina in fogli
+ee53d22e-f135-313a-b204-cff73d4199a4,Estratto di vaniglia
+7e7eec09-72ab-35ae-8eb3-2748a37c1355,Zucchero a velo
+3b1cbbdc-0622-3c96-82db-4f3d55001b64,Tuorli
+391639d5-cc99-397b-9ee4-4f3d59e5ec84,Patate novelle
+a41f611a-9ae8-3ec7-9816-054a6e1bc3e2,Aglio
+13d4dcd6-ccff-3016-a8b7-fa7701f20815,Olio extravergine d'oliva
+39bf8879-de05-394f-af6a-c761be7c9bf7,Pepe nero
+205456bd-86c9-3cb5-89d1-6daecdc66372,Sedano
+e7a0b01c-8039-3e0b-8d89-3e8aae5e024b,Carote
+d576e2cd-b5cc-379a-aa85-9ee450f59c47,Cipolle rosse
+eb05b21a-41de-30d6-a79d-288f4a479c5a,Pisellini
+bb1e77b7-a18b-3771-9ec6-45500efc5bf0,Cipollotto fresco
+250bd280-9030-3150-be1f-f3a493c0c3e2,Zucchine
+3397fef0-8e00-3b30-a3b2-13fb4d0d418a,Patate
+c7f0970b-a664-38a6-a22e-e6980162a655,Spinaci
+39d3140c-ed2f-3f77-9ef4-5e87503b5587,Grana Padano DOP
+b5a1a1b3-e931-3cdb-9a82-00a76513f8a5,Pane casereccio
+f9797123-12ba-3b73-bc0d-8c37a8198b2b,Pangrattato
+b9a33741-260e-3301-9fd9-3a5ba577708b,Cipolle dorate
+1c390565-8497-3260-b144-199f57b274fc,Lardo
+bea0c1b7-8d7a-3630-8e74-aa78ed00e191,Fagioli borlotti secchi
+b1581cdd-0c4c-30c4-90f9-ad2a34b02dfb,Passata di pomodoro
+78784a80-f259-3437-8ee2-ea95d64d3a67,Biancostato di manzo
+35d5bdea-979b-33ac-93a2-bf78d4704d68,Costine di maiale
+e57cdd86-d130-333e-80df-a8f5d7cf7a2e,Salsiccia
+40a52889-0e53-3bad-a2ef-7eaf8cad99bb,Vino rosso
+1fefae41-ede7-391f-bbd1-6c632b5ca971,Lievito di birra fresco
+e41572be-086d-388e-b67a-e2c1df3eb834,Baccello di vaniglia
+e9d64fac-d42b-32b3-aba8-eaade105acb4,Scorza di limone
+9795c15f-571d-3c75-953d-78748abb301d,Granella di zucchero
+e1159b88-4268-32be-bc71-d6125ec3ee2f,Cioccolato bianco
+2b4e465b-72e5-3ecb-93d2-8db51317c85d,Crema spalmabile alle nocciole
+baa8c39f-2840-38f9-812d-da87445d1083,Nocciole intere spellate
+3e1c0476-de20-3f36-9ee6-e70f3d3ace7d,Polenta istantanea
+b0c86bba-a224-39fb-aa1f-e791bdd3c2e4,Salamella
+a98ecb21-8797-3311-a203-d5e8a6508432,Stracchino
+67adc40d-d4bf-32a4-8e55-0f962fcb1153,Cavolo nero
+84138af4-796e-3782-aa76-55265285c350,Funghi champignon
+9951ebfd-62a0-39eb-b36f-3c809ab5cbbb,Toma
+51912df2-ed8e-35bd-9773-595aae5a1b46,Nocciole
+e97df5f2-db17-3124-80b6-b4c890b78b33,Roquefort
+c31e3f1a-45d0-331a-b929-d86e8f3258e7,Melagrana
+60c057be-c375-3142-827b-c747d714a90c,Aroma alla mandorla
+8a945da4-8ebb-39e0-bfe6-c992cb87cfb1,Melanzane
+91ecdf00-145f-37c5-adbf-27606c905163,Tahina
+d74a28b5-1e6a-3c4d-94f2-805aec387df5,Succo di limone
+60058d32-4dca-3e25-b256-573d1c14b8cd,Menta
+081be1f1-3f51-366f-ac59-ace754875cef,Paprika dolce
+70607280-869d-3868-be92-d0e79fbc20e2,Semi di sesamo
+1de0ccb8-d60d-3a3a-ac0f-e2decbd53ae9,Yogurt magro
+643c95ca-a6b8-3a46-b5e2-15370fe1bfed,Prezzemolo
+fd901fdc-0a13-35e1-ba3f-9e6cbcf6b98f,Peperoncino secco
+fb7ce2d2-c635-3269-b0e3-0a010b41031b,Origano
+59e743d1-1fcc-3bb8-a18b-105bb2748123,Cumino in polvere
+5b37c859-6505-34a2-bb0a-0e6f576e6a7d,Aceto di vino bianco
+a6d69679-5d12-3a9d-9eee-5832817263c5,Bicarbonato
+5ca5b5a0-37c3-36ac-8d87-2db2a9a52016,Feta
+ed066ab5-fc89-3bd7-8d28-3a53b9107e31,Pomodori ramati
+eb25db12-0a2d-3cff-90a8-9a8e56b19a67,Olive nere
+8bf243a0-99cc-36cd-83a3-6b933b4158a8,Noce moscata
+a02f4ce0-35c4-3d10-8da4-9996879afa57,Erba cipollina
+a1a4a670-204a-397c-9efe-1031256ce921,Calamarata
+02c9d881-10f8-365a-81b5-8f20c5afb025,Calamari
+d3cec5ea-554c-3be2-ab85-e909aeed2f46,Peperoncino fresco
+6f294678-ef21-386e-9749-fe323e56822d,Pomodorini ciliegino
+2bcede82-8f3e-30c6-ae49-5ae42584a47e,Vino bianco
+999d2a66-75f9-3d37-8ea3-47bb7b8f442d,Triplo concentrato di pomodoro
+59e72f99-2d41-32d1-bb1c-740dae5581fc,Sale
+4c3ad802-dbc0-34f6-8639-eb0c6135fef4,Farina integrale
+b74224b4-6744-3afb-a95e-97461ce00f17,Zucchero muscovado
+4131175c-6e82-316e-8049-69256032c589,Pomodori pizzutelli
+72527d4b-857c-3465-8b2c-98896dfb01ee,Mandorle
+6df8d955-1116-36f1-ba3a-50ddcfc2a9bf,Basilico
+99290787-915c-3aab-b4e0-5d6b785655e1,Aglio rosso
+22448cf9-b8cd-3809-9773-1c408b0966c3,Pecorino
+d089fed3-a887-335d-8805-f488506b19fa,Olio di semi di arachide
+497a9563-d582-3034-9227-a7673ce818b8,Capperi sott'aceto
+fb2b804f-f67b-3e89-b19f-6a2682c2cc5d,Acciughe (alici)
+d3d7872e-7302-3fd4-8b5f-7065cf0f5ae6,Zucca delica
+e7ee9562-362b-32ba-9eca-815de97b6102,Ricotta vaccina
+fb4551bc-15d3-3729-9c79-a6582feb9df0,Parmigiano Reggiano DOP
+e02bad48-c3ce-3f72-bc84-8ebc1dfc3fb8,Funghi portobello
+b755f62c-c8f8-3ee9-a5dc-9da54e8fe19c,Funghi orecchioni o ostrica (Pleurotus)
+a9c6b04e-b632-31ff-b391-2568899f7ef2,Funghi finferli (gallinacci)
+7056f115-b893-3048-889e-00196879bf3c,Pasta Sfoglia
+fbd7d2b3-4a63-3be1-b5cd-83bd2026ea62,Scamorza affumicata
+8318882c-c671-3cdc-a191-5188e8b50497,Lievito istantaneo per preparazioni salate
+860d905b-f518-3edf-8a47-d06b75402cb2,Gorgonzola
+b7f272d9-76a3-33e6-9387-6d31ae8798ac,Salame
+21f250e3-7e50-3d91-b109-7a2aa0914ea0,Lenticchie secche
+7a27b5ac-f68e-3665-b4cd-9e3993dd06ce,Porri
+8582e408-07f2-3825-8b53-4e4a109bf2e2,Curcuma in polvere
+22969ed6-8494-3b63-9166-9efcfc065461,Pane nero ai cereali
+7520043e-3b47-3660-8bdb-92e69a7e8c9d,Penne Rigate
+cff5559b-2ddf-3116-9eed-f4738094b189,Ricotta di pecora
+e33a7fef-9a8d-36c9-a308-1743117f3e67,Cipolle ramate
+151fd3b7-b5a5-37e3-af80-c338f214f8a7,Farina di cocco
+b55aaeed-1e7e-3df2-b466-6741886b4886,Albumi
+ab750683-4df4-3043-9018-7202a9560540,Cozze
+a0d0bcf6-2b6e-336e-8d12-a95c7e5eee76,Polpa di pomodoro
+4dc3800d-63d1-3d5d-8501-18f3b6ee05be,Pane
+0e1a1ba8-b562-3800-9826-6a064dad5566,Confettura di fragole
+9135f2a8-5145-3294-bd6a-1eb7a0f25a40,Confettura di albicocche
+3368ee7a-43d1-3fd1-a8e7-0a78e5500515,Confettura di mirtilli
+1117e0d7-7d9a-3a5d-a3c0-0f19a23a92f2,Zucchero di canna
+4d9baac1-2f03-3573-adc6-1fccc0bc9a6f,Cannella in polvere
+be138436-6d19-3c73-96a0-d06d45106ed4,Scorza d'arancia
+cd6877b6-9f3c-3168-823c-2787973ccc16,Mele Evelina
+3c246bd0-eee4-335e-83b2-37df33247370,Lasagne all'uovo
+d5ec203d-45a5-3e67-b068-ae1e72bb2e3e,Cipolle
+61126087-ef52-3c9e-a2b2-e47bbb782ca3,Lonza di maiale
+308672c0-7d7e-38ea-bfa5-881245923489,Provolone
+c5d158f6-2c41-3ccb-b0ed-3065e084d76e,Marsala
+dfb96eea-3c65-3297-99ba-6960a5bff34c,Funghi porcini
+ec66f971-612a-3156-8fc0-64fb16216cae,Salvia
+b3da8338-68f2-3e36-82fb-726ef46e5063,Acciughe sotto sale
+bae44d30-49c0-373c-b097-d454ca4e3a6e,Peperoni
+1f2364b4-d479-3d6e-bd98-9552b5bd3d6e,Barbabietole
+b74e966a-5dc4-39f6-8dc1-69355c6cb179,Barbera
+7aaaaea3-5cf7-3fe0-9361-3e2f8f39a6a4,Cardi
+24ee97de-b31f-3efa-ac35-d4c39318c55c,Alcol puro
+dc6a3069-0fa6-3811-a202-7fae6d31faae,Riso Carnaroli
+9460a787-eae6-320c-9e91-f2f7ae5def86,Brodo vegetale
+a83919af-cf3e-3aba-babd-b33f12ae1813,Pasta brisé
+2f17c2c9-e468-3a41-b8a2-f170cf79b868,Scamorza (provola)
+0790d8f7-d6fc-30ae-bf0b-40182ec797a8,Prosciutto cotto
+a32ed4ee-1984-3bc1-85e5-a992be9e6f50,Fettine di vitello
+60f7f9fa-5f97-3c10-8609-4a039bf99c94,Mozzarella
+857cf439-6ed6-3302-9d29-31800f5c7299,Maiale
+d50c4864-676c-36a3-a33e-1e09efd8a08c,Peperoni verdi
+6d7c7456-cc12-3a3f-81be-acf9ccf1b562,Ananas sciroppato
+8b7230a4-f50c-347b-83b9-33920f627bd3,Olio di semi di girasole
+87f1b6ad-1526-3033-af59-5e239d617a1d,Vino di riso
+f732d2fd-3901-3de5-a2cd-071b1336d16f,Fecola di patate
+6fd176f8-2446-3111-9df1-3329f28cb31e,Concentrato di pomodoro
+d9bc19ba-9a13-370b-b0f3-739d2fc1d009,Mele Red Delicious
+2bb75e90-cbde-317d-9fd6-17194677e922,Olio di semi
+19cf0847-14f9-3817-a587-b04c595597b1,Succo d'arancia
+fd5c63aa-3c45-3e20-b087-d6a94f1530e7,Yogurt greco
+89867b9a-fe4a-3b60-b8fd-81e8d0a661f3,Cetrioli
+b392596b-1947-3acf-92d8-bbe3ad8471c8,Pollo
+7f32fe01-bb10-3182-9d9e-7dc7e9347501,Pomodori di Pachino
+191be3ca-94da-315c-8dff-e6c878243d7f,Finocchietto selvatico
+8d097197-baa4-3bcb-9106-116037af6e94,Vino rosato
+d025f62e-27bd-31cf-b9e6-0a1c59b1cd7c,Biscotti secchi al cioccolato
+38622903-c9c0-3b14-9f48-21449d0e200f,Cioccolato al latte
+6ace0a4c-6537-3bf5-852e-9d2ce3413cff,Tonno sott'olio
+e5184cfa-e79b-38f9-88c1-eea427e42bf5,Tonno
+a87d3d62-fb90-3bea-85fb-6c268ea89cc3,Ginepro
+95a32c80-d943-3268-b54d-760d0e155d6f,Zucchine tonde
+9704cf6c-3f2b-337b-9522-65e606da4b6d,Marmellata di albicocche
+7046a9bd-3331-3f41-acb1-1a494f604750,Riso vialone nano
+88087e58-ec29-3182-a4c1-64250b687763,Verza
+8919d702-b0ab-35e9-80d2-a587a58ec94f,Pancetta (tesa)
+8de40eec-eb1e-338c-8aae-d4aa55aa04f5,Salmone
+4be6355d-4063-3e1a-bbfc-2fe7a8049032,Cocco rapè
+3aea2f2b-a6f7-3f40-a7bc-ffcbd6bfe03c,Seppie
+881fd61d-4f59-317f-ae80-36a9342237cf,Vino bianco secco
+eb7ec71e-659b-3bfa-be68-f16b51e8fe86,Carciofi mammole
+d3ef3074-44d7-3c06-86e9-5cc9960dc87b,Semola di grano duro rimacinata
+91196c5a-2baa-3519-9e35-2a48bf1264db,Zucca
+7416cacf-2904-3244-9f8a-4bb6c9eec124,Guanciale
+4fcb31a8-e3b0-332b-8557-12ae78a1e6f9,Cavoli rossi
+0b9ed64c-46e9-33a3-a885-30773699ab39,Scalogno
+f687bba1-3257-3408-94ec-caff80e66544,Tagliatelle all'uovo
+8d02dc67-dca1-3da3-9d22-87e270167746,Radicchio
+df05ad22-17c6-3590-a787-844347797986,Speck
+8286f1a2-0cdb-3bdf-9af4-cf0833f7fc2f,Quinoa
+8c59e05d-5ab6-3180-8f4d-4aef99779964,Peperoni rossi
+92eae4d9-c37c-334a-9c60-d4d060aca201,Peperoni gialli
+5053d7a6-812a-3510-a648-18a35c366d2b,Castagne
+5e3b0bd3-a7e6-33c0-936e-f2f3f4ead032,Limoni
+77a96d42-c690-3ac9-8f0c-02975ed974d4,Liquore all'anice
+830d972f-3b25-3df0-9df1-19b68faaba2c,Finocchi
+533329fe-019c-3361-b95c-e77a961a2043,Pangrattato senza glutine
+64f2b7e3-7d3c-32a7-9d30-8daa66bf29a7,Olive taggiasche
+b8546fca-3780-3d92-9b60-6211b108eae1,Cerfoglio
+6b9bfc71-fe27-3f57-bc8a-d34eda6ead45,Vitello
+a9a1d234-451b-38f6-bdf4-67a605f68e1b,Acciughe sott'olio
+00cb43b8-bd47-305a-adae-48657fdae615,Capperi
+8fb69024-7a95-3d8b-93fa-f9467fdd50ae,Uova sode
+2dcfc617-c922-3849-8436-b47b9acde74d,Petto di pollo
+d2e0e250-50d7-323f-b4f4-d840ac0205de,Paprika affumicata
+68108029-3e2a-3e50-aa4c-72f0ef6debb8,Caffè
+fb6c5148-bc0f-3906-98eb-e7979f0df153,Provola
+69044658-253e-3b81-9479-6a3f73bc4975,Champagne
+2c96c579-7394-3459-be1b-161c896c2009,Cime di rapa
+de3d4eec-6c56-3022-b4d5-d2ed1b73429a,Arance
+622ad316-f53a-3665-a2e6-46c3d6af4162,Pomodori San Marzano
+3335e064-e460-3c87-8ecf-ba3dddfe6f99,Carciofi
+f9a51fd4-964e-3e6a-a50e-f2cc09dd69d7,Farina di mais
+7a5708bd-a1f0-3b96-840c-1657e2cea8d5,Emmentaler
+ad9f275b-cc81-36a7-a64d-b74dab1e810d,Carne bovina
+ead1fa2c-b09b-34d5-97c3-7eeb41618017,Pancetta
+051d9938-a09c-379e-8d03-ba1b462ae40b,Scampi
+82bfb4e6-46f9-316d-8179-c65a3538c078,Brandy
+25814ab6-22c5-3c2b-8fd7-29c66362d526,Pepe in grani
+53637e65-d835-35ac-b31c-eb0e85591196,Patate rosse
+99b03f85-1be4-3931-9515-ba38f98310a6,Pancetta affumicata
+eb6ca208-0d74-3a0b-886a-16094726ca80,Miele
+d0d48297-f86a-35ca-950e-dd4882db7f80,Senape
+bbcac192-c0ef-363e-9b15-e85eb1ed6a2d,Filetto di manzo
+cf8e82f1-624f-390d-8d1f-fd656367f0e7,Pepe verde in grani
+1897139c-7c27-36df-9e1d-520898bb7066,Senape di Digione
+ad79b8fb-9762-3494-a6e1-9240801a62e0,Brodo di carne
+9f496499-2b67-335c-875a-7b2d92f00c72,Burro chiarificato
+2dd4cb84-7f9b-3fa3-85ce-b841bc8bfaf4,Pomodori datterini pelati
+b3c6c17d-493f-3676-ae66-ece8fbc1b652,Glucosio
+9fff775c-f021-34e3-ade5-b08a77c09bb4,Farina 1
+0bbaae58-737e-3db1-9e77-b0ea53bafece,Aglione
+3e99838f-8358-3b9c-a9f9-9deceb7194cf,Asparagi
+61eff953-a6ed-34fa-877f-e64216fdc729,Maggiorana
+b02f8ddd-8c2d-3028-8ce5-1834976c7b4e,Olio di semi di mais
+9abbcede-f2d2-3206-ba32-34fb4ef3fa9b,Cacao amaro in polvere
+02f89a8d-5cef-3e87-be8e-0fe24cdb9263,Fusi di pollo
+f86c3894-43ae-354b-b291-e8203b2aa4ec,Paprika piccante
+f878fd5a-b1bf-3aa8-82a7-a53f7b316414,Marroni
+5858bbcc-c633-3051-97ee-41f59c93cb86,Rum
+2bf769cf-bb86-362f-bfd4-626a0c90da79,Pinoli
+83018d97-ee5e-30bf-b288-07777a1a5f02,Farina Manitoba
+4b3d2aee-45dc-3e54-87a5-d0779a8fe2e1,Lievito di birra secco
+b687a8e0-e1a6-3f75-869c-b305647114f9,Malto
+c2d77f48-182b-3109-8a7e-79a6becb9099,Uva passa
+2e28bade-dcdd-31de-b016-fbd21f1d23c9,Arancia candita
+68e204aa-7fef-3db1-9346-a9d32ce547d1,Fagioli cannellini secchi
+2584a44f-7765-37f2-b50a-d43531d2d9da,Pomodori pelati
+27bd80db-5873-35ab-9ee6-261103a67509,Mandorle pelate
+3d04313a-6056-3ba4-86ca-e3e37737511b,Mandorle armelline
+905b2e30-b9e2-30f5-83db-b0963e24b11a,Ammoniaca per dolci
+9a4131cc-8098-3ca4-be34-80465d6b4683,Estratto di mandorla
+395f4bb2-8d83-3459-bb3b-172c33b443cd,Cioccolato fondente al 55%
+8c6463cf-244e-3d4c-863e-43a01b6336e2,Miele di acacia
+1469a841-02d2-3d1c-9e48-d84a9f462409,Provola affumicata
+64dd2368-0ee7-3f89-af07-93fd94c17f4c,Pane raffermo
+fd9b74d9-680a-379c-855c-e121aa020b9c,Mascarpone
+4ded9929-7712-31a0-ac87-82827c8049ca,Savoiardi
+9232ca76-03a5-36f0-9149-abe55429bc26,Pere Williams
+b951cd30-c8e6-3214-a696-3b30d2a1495c,Paccheri
+519152f8-66f0-356a-997c-dfa9f0a452f3,Gamberi
+c1c3a7c2-71d2-361c-8205-41ca1b1e3867,Pere coscia
+b1b51b55-5a2d-311e-8f72-52968e536886,Amaretti
+7f21c669-54d7-3858-bfdc-416df646e2fc,Moscato
+0474dee4-1408-32bf-a0bf-dc0898f95b9f,Farina di nocciole
+f59ed06d-3b77-3b7d-8f78-6dfdf0cb73b4,Caffè solubile
+5b6cc8cd-e006-3b0b-aaa2-1c985cfcccef,Amido di mais (maizena)
+4b754116-beb0-3c76-85d1-b0af126966d6,Chicchi di caffè
+fcad441a-758d-3522-a6dc-e993b1b649dd,Granella di pistacchi
+04bf10c5-ba4e-3062-bde4-59b67617b457,Lamponi
+c91b6b33-8c45-36e0-aaaf-f1c72b4f3557,Uvetta
+7756d15b-4aaf-3a4f-838b-757eab814a75,Pomodori perini
+a99225e3-819d-3ae7-a7ba-abe4adb0cf93,Cipolle bianche
+b5506f9c-983b-34b9-8afa-3435057f0c9c,Sarde
+160e2000-2b2f-3c2c-b312-3d852506c254,Rigatoni
+9ac4eb57-1f82-3ec0-8d35-77b2bf155f42,Pecorino Romano DOP
+a23327e4-7035-3285-9563-16097266277e,Grappa
+6eb1ebb3-9ab2-3502-ac4d-0dfa560b7bdc,Lattuga romana
+7efb8960-7837-3e20-81b6-255b755b83da,Salsa Worcestershire
+804d1e06-fea0-3446-9942-cb805bf2e65c,Fiocchi di sale
+d20727da-b0b6-3110-9fa4-789de491d881,Yogurt bianco naturale
+dbedf145-5d91-394f-a6a5-a5b9e74ac05b,Pasta tandoori
+9c4efe23-914a-3c4d-a47c-e6a25e5fdf3f,Pasta di aglio e zenzero
+80cd82f0-4c1b-33a2-80ed-ed2fae88dede,Curry
+49ec2c19-c25c-33ed-be96-c4c13ebffb0f,Gamberoni
+2153e795-4fc5-30d5-ab4e-bdbba84e892f,Chiodi di garofano
+3c9a3547-891c-358e-99c0-bc5cc21b97f2,Petto di tacchino
+585bafb7-b353-3317-9b0f-98b3ae061f34,Fettuccine all'uovo
+bbd95612-4ef6-3acd-a6db-e5cb937bed55,Tartufo nero
+3f912298-51cc-33ce-b77f-fd965f45f6a5,Granella di nocciole
+1a69c877-a73b-3576-b8a1-1f72fbee4dfd,Pere abate
+02ef79f7-87e6-3e9b-9cb1-6b668dcf3b24,Distillato
+f5c9fc1d-f196-36e5-913d-6740937afe84,Ricotta di bufala
+a338410e-7f4a-3fc8-bac5-785d2542d557,Confettura di lamponi
+a6c04d16-3174-3153-8eaf-c7ce952cb4fc,Nutella
+46b055b2-9528-3af2-91c6-d8fa593148e1,Aglio in polvere
+fef2c454-5220-399b-85b2-cd89cc4c3909,Cipolla in polvere
+0184a1b9-120f-32f9-96ee-d0dfcd003310,Acqua gassata
+e4e208dd-61a7-3c07-822a-a86ac7fb8781,Corn flakes
+d0c42ba8-3ef5-346d-87e7-290a23dae0dd,Trippa
+cb82cf34-2fd4-3c23-81c1-4757a031a22f,Fagioli bianchi precotti
+074a0726-0e10-37ed-9f9d-ea1359953ac4,Ditaloni Rigati
+f856a534-b5c1-3826-a891-2badccca32e0,Zafferano
+3da7484e-003b-38c8-b0ef-c23bfaf4bb3d,Midollo
+be55e0f5-c590-3790-a951-b47d4244a103,Zucca rossa
+8edd7476-0068-3c89-b356-010a56a9a531,Pane toscano
+69bf7c7e-78f2-3d10-95cf-1105247ff29a,Gherigli di noci
+1d14ac35-ae36-33e8-afc0-be66610a0356,Cointreau
+93a41274-b492-34dd-8f9e-a673d16be638,Ditalini
+4ca3ebe4-123d-3908-bdc7-96b0a0f6e857,Farina 0
+1188ff32-ec58-3486-b1f9-9305c5486af5,Strutto
+1fcea90e-c82c-3452-94b8-5a7aa3bc3c02,Confettura di amarene
+37cc02eb-ec65-3713-bf26-8c760a9fd61b,Pan di Spagna
+2bbe9aa5-8cfb-31c9-aa64-645e7ed8d718,Paprika
+6f46a8ad-7f9f-3427-8b12-b97202a2ee02,Zenzero in polvere
+c8a62323-40c3-3457-943d-843b3ce828cd,Cioccolatini
+4bc8c191-fa80-3107-9df7-2497ae442c5b,Smarties
+aeca0b2e-ca5d-3f89-b2ef-d810f05b5cbb,Palline colorate
+2ee3a6b2-d1a2-3c89-8f31-50a7834474a3,Cioccolato
+8cfccdc2-b25c-3b6a-8cd4-ded668c066f5,Decorazione alimentare
+84da7e52-8a39-3712-883b-4de47dbd7388,Torrone
+03702113-7ff9-3373-aea2-42b316cd9d0e,Primosale
+472a5a21-3eca-39c2-a694-b0af3bcd06a4,Latte
+47a6c8e7-1efd-3b60-8686-200e2f97c389,Bucatini
+62bea124-1ee6-39d1-a104-0e712d483022,Puntarelle
+9635a1ab-06ac-3a2c-b85b-55837ce01f6b,Pere kaiser
+17058ede-3019-30ea-8c05-dd07ff96c8ea,Spaghetti
+16c49035-5754-3af2-8158-aaf0559a85fb,Pesce spada
+ae0d4106-3af1-39cf-ba18-dc70c05aa2db,Lievito chimico in polvere
+8e05c627-6114-3b4a-bdc9-9cbc4fb5b4e2,Caciocavallo
+d7a3b8ff-3f64-3c6d-bfad-709f119711af,Cioccolato fondente al 55% senza glutine
+2a7153c0-34ba-328e-8e4b-c355d673a764,Cacao amaro in polvere senza glutine
+79713929-636c-3cbc-9b26-52a6c96bdc0f,Biscotti Digestive
+22c63561-e5de-32d8-bbf9-3d15b6b21e60,Frutti di bosco
+b48f6d76-65d4-3a9d-9aaa-1b507ec2f6da,Prosciutto crudo
+7f89a1d3-6712-3b13-a0ce-d9295f94cd90,Farina di grano saraceno
+8dc0632e-1b66-3b57-9631-5859910e0dee,Marmellata
+3e394a4f-0135-3c44-be06-4014231f504d,Fragole
+ef43ddab-f705-33ac-89c9-6804383f47b0,Kiwi
+168538b2-491d-36ce-b4e0-43857bf66ce6,Ananas
+3e15e92d-81b7-3579-b1ad-1c36b203115c,Mirtilli
+cc90d78e-0ec1-334c-9cfe-4dcc63d062ae,More
+16523255-a1b6-3eeb-9753-aea38fabe0aa,Chiodi di garofano macinati
+5ce48d8d-af78-32d8-bd2d-36904bcf0573,Codetta
+d7518b75-c7e8-3078-8179-983b5f9ada17,Fregola
+2d2442de-d954-3ad2-a9ec-af507542d5e7,Vongole
+615afb5f-4255-3e9d-ad73-faf5cbb1f243,Farina di mandorle
+be026cea-0799-3342-a4db-f7e0e515074a,Miele millefiori
+105ef358-3cfc-3238-99ef-6976b1b8e2f3,Mele Fuji
+af5d8437-e5d9-366a-8531-43bb503bbf13,Valtellina Casera
+5e7dafe7-19d1-36fe-90ec-7d8c14129a99,Fontina
+04fd367e-7f3e-3f77-bd62-2c19dcd9a160,Farina
+32c852b9-1603-3ba9-8fd7-0cb7ed2a31e5,Marzapane
+9a4d72d5-d34d-3e4a-8b09-5bb4a4629d92,Coloranti alimentari
+a81a0d62-214a-346e-81fc-0ddd69c212ce,Vincotto
+60aaa1a1-0814-3617-ad87-26124d665766,Fiordilatte
+49e66f24-bf6f-35fa-8dd9-2f969fd29070,Salame napoletano
+34b25917-87bb-3c01-a87a-39ec0ead6cd3,Fusilli
+7de60cce-0abf-3453-a395-3a1e29e08e75,Fiocchi di avena
+9bd49e62-5236-333f-9367-b9aa1298c257,Cinghiale
+57f2d866-2661-31d4-9fc1-0f0717fa7f34,Bacche di ginepro
+6f16943d-0172-3f29-8114-de16da15875a,Pepe nero in grani
+27f3cab0-b13d-3f60-a00f-c25dac21d396,Peperoncino
+23295144-d2eb-3a5a-99fa-a73e47a09479,Senape gialla in polvere
+0cfc9422-2cd7-3832-9f8a-57bc33ccb8f8,Cumino
+a7d1a41c-5dec-36d9-a275-430be11b764a,Sciroppo di acero
+08856c1f-038f-342c-b4dc-b7f41267c1ea,Ketchup
+e58c92e3-5560-3b2c-ab4b-754716ff708b,Aceto di mele
+24e61bef-131c-3e3d-9b2e-0a34087930e5,Worcestershire sauce
+1f68a3fc-ccff-362e-acfc-91b3955e704a,Ricotta
+57a61ddf-9165-35d2-bb7c-dd8075cb2cce,Brodo
+98f27b28-a059-39d5-9a14-aef7dc601502,Stoccafisso
+c5e493bc-6911-3c7f-ab0f-2356430365a0,Sarde sotto sale
+539ad100-2144-3902-a25e-c1d1c8ecace1,Farfalle
+677e766d-be93-30aa-9882-67cf2a3eaf93,Farina di frumento
+bde1fb33-4a0d-3440-b3c0-42e0581206a1,Cavolo cinese
+a104ee83-b65d-3fcf-9542-2e7c63b3bff1,Zenzero fresco
+eca207fd-befc-334a-90c5-caa3029dd217,Salsa di soia
+2b9eb2ff-79e3-333a-81ca-338632e84d12,Olio di sesamo
+97fcfa76-bd2d-3b76-8277-e7b96df3a98b,Macinato di manzo
+4f579136-3f2c-31c7-8d5e-45abe4ed9b83,Muesli
+746c25e9-a72d-34bf-ae48-1ee524a241a5,Gocce di cioccolato fondente
+3b37ff07-8daf-3326-806f-79caa01d8b90,Latte di cocco
+bfb58867-91ac-3caa-8647-0835633dfa9d,Broccoli
+8979b14e-94a1-3982-83e4-c989cf1d34b3,Cavatelli
+dde69875-6ea2-3177-a0e8-fad42e922ada,Rucola
+bf90aae1-3f3c-3ca9-8d34-8ee4943a28d1,Scarola
+d39c030b-f62b-36c0-9686-14e5d28a995a,Olive di Gaeta
+ff8c526f-5ce7-3fed-94f9-bcec1b50aeb3,Capperi sotto sale
+e4f02065-1876-384c-b6f9-df5c3aad1304,Codette bianche
+fe9efb8d-35d9-3ca2-8a20-12beb498be32,Perline di zucchero
+73c0acb9-8bde-38a2-a5aa-32aa77f68551,Riso Basmati
+4ac06064-88fa-3038-96d0-9a9a98760cb1,Bacche di mirto
+3e46e094-b05a-301c-90e7-005b8cca76e3,Anelli Siciliani
+a2959620-f4ed-3657-8c44-52ad7155509e,Semola
+701c171a-44c5-3ef0-813a-85ce9782b7e6,Spaghetti Integrali
+715264ea-e47b-3525-89a7-b26561b0d928,Pomodorini datterini
+63dd8bd5-7d82-36d6-8520-6a6b45d0ec8c,Cicoria
+6e2f9039-f868-3304-ba60-57a75a319272,Burro di arachidi
+4234169e-1120-3c41-a5b6-69e9fd8f2caa,Luganega
+dbf542f1-3cdd-361f-be25-147567d65b13,Marmellata di lamponi
+076bc690-1080-30ca-8478-d834c0209de9,Cognac
+b0df5d39-fc8a-3956-9bcf-04cdff21aec1,Tabasco®
+5cb0dde7-11ef-3b0f-849b-970218af83a9,Senape dolce
+5ada67a3-2f7a-3d08-80f5-199176a0756c,Farina di riso
+1fa4d835-7f6c-3589-bae9-70392960a932,Pasta di pistacchi
+88ec4d5c-99ea-3749-9e32-b27305a1fe3d,Edamer
+38c714f7-e65f-390a-ae3d-4ee7b8ecade3,Pane per tramezzini
+3db3e57d-afb5-367c-9a3e-91314625da6e,Insalata riccia
+943ce350-ef7c-3029-b48a-0e1b3d6d72d5,Maionese
+0f2d65f2-a5ff-3953-92a5-e5c42c8ef89f,Olive verdi
+47a560a6-04ad-3730-9486-d09ad62b7680,Cetriolini sottaceto
+8717f2af-fbe6-34a3-a759-0452fbaf255d,Uova di lompo (succedaneo caviale)
+a02a7f59-085f-3753-9c81-3ac4fbc5b898,Salmone affumicato
+1ad32b09-2d4e-35d7-85f9-ce78c145525f,Brodo di pollo
+896f0125-7187-3f01-b394-0181a2392dff,Farina 2
+1a3fe837-3703-3d27-a6d9-77ece8fb8fc0,Latte di mandorle
+9dda7c1c-96c6-3a5e-a677-018ccf7ecbb8,Robiola
+8ce7ec9e-8876-354d-acdd-4d320432140d,Capocollo
+896b4433-bad9-36cc-8f4f-da427ae3f02f,Alette di pollo
+9c4f53d8-786f-3620-be46-fef751d88499,Trenette
+b3c27b20-da6f-3c26-b6a9-d5dc1367fcde,Fagiolini
+b0731105-5280-3c80-aa05-8fd5d5b43c5b,Pecorino sardo
+45439165-cf5d-3f6d-b9f8-5083265dee4f,Filetto di merluzzo
+79894995-dcc9-3584-9fe4-fb88b811cfb6,Mandorle in scaglie
+7f431891-a193-3e1b-be27-2137dcc6823d,Riso soffiato
+a49a586d-db7e-3f07-b951-8e6ca31fc4fb,Mars
+6b714546-1c14-3343-baaa-65c99c67ec5b,Mele Gala
+e4e7dc55-d0a9-3aae-8f47-c25e779d5151,Broccoli romaneschi
+5902a60a-b69e-333d-9a44-2c74630f7823,Cannella in stecche
+f2c371fa-4b5b-3ae7-b36c-62582df66fd9,Farina di mais per polenta istantanea
+aa69704f-f96d-36ba-940b-fce7cb46e357,Fagioli borlotti precotti
+13d733e0-1702-3a22-9e6b-9534f61e83c1,Amarene sciroppate
+1113c615-b0fa-36cd-b091-a06fa0e550b0,Confettura di mirtilli rossi
+95eb6dc4-5ea0-35a9-b2d6-461d95ea1d9a,Rose in pasta di zucchero
+fdf62278-a112-3eed-b249-5dbce9850bf8,Fiori in ostia
+abc1131d-37e0-3b2c-8f04-5647edc6267e,Meringhe
+6e66b3e9-e5cd-3314-b8e5-1a0a39d2d4b3,Ciliegie candite
+d1a59e9a-a998-3935-97ef-13bdd0a25df6,Cotechino precotto
+f8c7d326-7f62-3e78-a6bc-c22e7a183694,Lasagne Verdi all'uovo
+9b58b0f3-aa13-3df7-a357-fea401da4f03,Pancetta fresca
+0ca6bd64-3476-3cc4-ad3c-da0b468f931e,Mezze Maniche Rigate
+fe851b5d-ef23-3341-b722-298f9f19f163,Cavolfiore
+d932a7a7-8f6f-31e1-8b77-d32982894b1e,Pistacchi
+832e725d-1417-37d0-a7a5-85364650edd2,Cosce di pollo
+122b215b-05c2-300e-9e57-0f10b918ff99,Farina istantanea per polenta
+77eae667-c2ca-3334-9d5a-03326138c310,Garam Masala
+eed749a8-9a34-3c5e-aaf6-67bf4b5a609d,Succo di lime
+0943fa2e-3ac1-3d23-8afc-fbef694d1a06,Coriandolo
+f22f94dc-9d82-329e-8b8b-e640d202f5fd,Carne di suino
+286d5cc8-8386-3146-806d-1155d9577ed1,Pepe rosa in grani
+11f47a5a-2336-3dc9-92ca-27aec00e02eb,Ceci neri secchi
+19556c9e-b2df-3096-aed8-d623cde17756,Formaggio fuso a fette
+7da2ab7d-a812-3b26-a2cd-4ec105f96d58,Pomodori
+ef98ad63-7f74-3ff3-9002-c6762bfa7368,Lattuga
+ccaefdb9-8f6e-33dc-8b9a-fc1731c4ec7c,Panini integrali
+10f87d94-86c0-303a-befe-be38b40d8a9a,Alchermes
+c43cba64-b8dc-31da-84ce-87ad37179b8c,Cipolle rosse di Tropea
+a1ed63f9-0726-342b-9cf9-5fd10748581b,Rana pescatrice
+502b57c6-71f8-3b14-be10-9ba16c75748c,Pomodori piccadilly
+2a24c877-8ed6-3237-8591-d8ea84301845,Pasta di nocciole
+78861e8b-a127-3641-8cce-5ca4fb6a6b95,Wafer alla nocciola
+17a5d0d7-c292-337e-9bda-fdda4c6338b6,Wafer
+d4d4a6dd-c9c1-3059-a1e4-e4a0cb4fd31f,Patate dolci (o americane)
+2a094693-ddc7-3b8c-b205-f710b55cd4fe,Glicerina
+5d66c112-de92-31f7-8762-fa8505341213,Polpo
+52a4f209-4660-3764-8606-1eb1aaef6372,Pepe bianco
+40412dfd-d8c5-309e-a341-96ac36355298,Ceci
+43d42d2f-8602-3181-b65f-ccf5827569d4,Noce di vitello
+7e08a487-1cef-3ff5-890f-d3ac3697007b,Birra rossa
+72f1fc00-6ded-31f2-8df0-670b9259dda5,Gocce di cioccolato
+388af9e6-23ab-3820-a651-b242f75112e5,Couscous
+276dacfa-d398-3120-9af7-17695b627b4a,Amido di riso
+8a351805-5f4e-302a-9625-4e7b981502f4,Sottofesa di vitello
+372ee9cb-2e40-37c0-a33a-252b8dd493e3,Seitan
+efa972f8-060e-3cc8-98e3-b629fe049fee,Tranci di salmone
+6865dcfc-9d17-3840-8bfd-c50fd04a0f48,Pappardelle all'uovo
+0d6fc3af-fde8-3e34-8194-8329681ba07a,Linguine
+10ebce09-d563-3cbf-9cfa-f1989e4d289c,Lievito madre
+d0b50e05-73d7-3c32-a83c-432ac1446298,Coniglio
+bdc9ec6c-c206-37a2-86fa-1281274f0ed1,Carrè di vitello
+784db44f-4537-3a66-b2fc-f953c28b2c7a,Sale di maldon
+228af192-3d57-3202-a988-b74e7118659f,Patate ratte
+68422cef-0855-322d-9df6-bd290c19cb69,Pastinaca
+3c94f1fb-9162-3d22-b0f1-bce98f550590,Semi di cumino
+8f5b9324-a696-372e-a07b-686e09e62dc0,Latticello
+d783feb3-b997-3694-b23d-c88a1de165c2,Casarecce
+d2ffc532-00a3-369f-adb6-f0da199c1066,Zucca violina
+1798175e-a9b1-3ba6-8719-20f85f7d9f1b,Noodles
+92f93845-7003-34e6-80fd-c32b38d8e4ba,Lemongrass
+94a7077e-eaf4-3ba4-8a5b-344aadf04ccb,Bacche di Goji
+da98c086-8ccc-31bf-821b-2db9863c9b46,Maraschino
+9e51d562-9eb2-3df5-bad8-b855750fba14,Frutta candita
+194b962a-9020-38d9-9bfd-ec22ab77e78b,Zucchero a velo vanigliato
+d60c9280-5f83-3446-aa91-923dae7b2996,Biscotti
+79431147-0648-35ad-89d8-9e10e94319b9,Macinato di maiale
+c3aa7614-4b75-3352-8622-06ef40811673,Mele Golden
+38920963-78c3-328b-9b5b-2d07ad73086f,Brodo di manzo
+47849f7a-5804-38d9-b910-f6a8b1afdf4e,Cipolline
+ce11387e-db39-3691-bd78-89d60464a328,Raclette
+5f87900d-5ae6-37f7-b3dc-42924dacbbd7,Baccalà dissalato
+d2664a60-c8c0-3389-881b-e13ed792f2b8,Farina di mais fioretto
+62db9394-2168-3e8f-b150-df0353b70da6,Pennoni
+171061a9-1d03-3859-8a9b-fb084d1080af,Marmellata di arance
+034132e0-0d77-36f1-83a0-198afd6e069f,Sottofesa di manzo
+dc294498-c81d-341e-b99b-e35ea1f03088,Riso nishiki
+265372bf-153e-3dc7-b9b0-d1155d751179,Filetto di salmone
+e12c1ef0-0a31-38ba-b834-38ed0b9e09dd,Alga nori
+07fe4d72-928a-3819-97e5-4eeb4a95723a,Wasabi
+185cd8fb-f0a7-35fc-93cc-b1922b4e14b8,Zenzero sott'aceto
+4026e94e-df10-36b5-a4e2-8d4a29ec917e,Tofu
+cda94faa-7e98-3119-aa24-43149ade6610,Miso
+dd8701ce-68d6-3dc3-8d06-ee066118d325,Daikon
+8fefced7-dfca-3f00-95e3-764058885184,Alga Wakame
+450b77fb-7e46-3658-99d1-19383bc1c460,Arista
+6402295c-04c5-39e8-a00b-9cfc9a2a0181,Birra chiara
+bc5e09c3-62a4-3c45-ab04-a92b69f479bd,Semi di finocchio
+c290bd36-a869-39b7-9e7a-24ecb99480a5,Spaghettoni
+adf56365-9630-3f94-a825-226b8c9ca133,Zafferano in pistilli
+8baa356c-04ac-39a6-bd91-9f6a7e51950b,Pane bianco in cassetta
+b45c82fc-5d8a-3cdc-a017-dcbc84774aa8,Mozzarella di bufala
+b677cb4b-e8d9-3818-bf35-4b315617b442,Ceci secchi
+5c4e1256-f1f5-3e22-889d-974b3223be4e,Mele chantecler
+286ea9c3-1894-3b5e-b098-9bd1a3bd659e,Cappello del prete
+3695ec45-b0c2-36ba-9875-5709f2030735,Anacardi
+3ffe61d9-3440-39ee-a967-4cff06fff0e8,Zenzero
+243d3443-f49e-3f1e-8008-a32a374f0bf4,Caprino
+b6b43697-b7eb-3b7e-b08d-e54201da8eee,Biscotti secchi integrali
+f60d05e0-f13c-300a-a9e2-52e0cba4fc3e,Burro light
+4b192eb6-ddbe-37f8-b1d7-9783e6b73bfe,Formaggio fresco spalmabile light
+f6c5cee9-dc23-3a5e-b83f-bd0758db1192,Fruttosio
+fcdb2657-7ae6-352d-9c7b-dc256984115e,Olive verdi in salamoia
+ee218a8d-34ba-339c-8774-65da40893682,Latte condensato
+cb208666-250a-3c41-b15f-cb7651826f92,Peperoni friggitelli
+4107ab25-d81a-3ba5-9497-74aeefab0b62,Mozzarella per pizza
+0a9d468a-8294-3675-9c4d-28463f437f5e,Zuccherini
+acd609c3-b04c-3348-9d41-29f0c61993e3,Gamberetti
+ad8c3ae2-18dd-30b1-9a03-96f9916e9ed8,Cioccolato fondente al 50%
+31b00dd6-c093-3806-9635-efde155237d0,Controfiletto di manzo
+9438a9fd-ae32-3cf6-933e-89b2bb53be0a,Lime
+9b8e8106-15e4-32ab-bbdd-e6ea9f162a71,Tortillas di farina
+a8e58a4f-437a-3297-b43b-6c116543b09a,Fagioli neri precotti
+9eece823-3a03-310d-a407-f2bdba2eff32,Salsa di pomodori messicana
+527eb1c0-0483-3fe9-8590-19d855faaf2a,Guacamole
+f5b2c27f-3d61-3984-9503-5f17e741513e,Uva sultanina
+78b6f1a8-f3f5-3712-bde0-cff5339b521e,Anatra
+dd80d0cc-bebb-3c0f-b6aa-d90650cb2cf7,Grand Marnier
+cb6cf116-e8e7-3fce-91a4-8f5b95bfb80c,Zucchine baby
+a03bccce-8dfd-39ff-a674-06c9ed68095a,Biscotti Oreo®
+c9746429-418a-375a-93e2-2301bb44839c,Biscotti Oreo
+953b19c5-0274-3b43-b559-548836e22e36,Wurstel
+3ead2744-2b7c-3491-9c07-ee52b24aea0d,Salsa ketchup
+06fa28fb-4757-3a79-8509-098441779153,Miele di corbezzolo
+a14c0fd6-4338-3269-a7bf-e8b351000c50,Gruyère DOP
+bd65fac8-b4f8-3a06-948c-e5f9dc568975,Panna acida
+7e69ecee-e1d5-31eb-92d9-fb14dfb440ec,Semi di zucca
+72b2aaf6-9423-33e8-9bb7-b3377d6bf51b,Mentuccia
+44656a62-06cf-3a2f-b39d-9f17e1d5dde0,Avocado
+805b900b-2993-38bc-ad7f-48dca2387d11,Sedano bianco
+1640d9ba-56fc-3a26-a30f-c19e0285c930,Groviera
+7db0def2-978c-31aa-9d2f-5cc32a0d8274,Riso Arborio
+83334f37-cd65-3021-9d86-c96382c1246f,Pomodori secchi sott'olio
+334f3ff0-acc7-337e-979b-2187b2ec7b69,Vaniglia
+cab4c5c9-11f9-3a4c-bc82-4519433fabd1,Polipetti
+b2a5a12c-00af-3ef6-955a-0925325944fb,Trofie
+40048dac-667d-33bf-94b2-1af7f4087013,Cocco disidratato
+e7dbc07f-b938-3cd4-83dc-e3a7ebebed7e,Yogurt
+7dfff313-5be3-3c8b-99eb-e1c8c2909344,Spaghetti Senza Glutine
+780981ca-a5af-393a-8769-e2bea8c95df0,Friggitelli
+4ea23b8c-2772-3205-9b43-81807cd3aadf,Ziti
+2e0b35cf-d4a9-30fe-95af-0c101ad0b6e4,Mele renette
+d4e18b29-ce1d-3d88-8bb0-d530b8bdc977,Scorfano
+54e185d0-16e3-3f2b-a6ac-9adc8d0f3321,Coda di rospo
+b19ffd08-4028-3e6a-9ea5-3ff0e78e6c63,Lenticchie
+71c71e8d-5723-375c-b838-c1489eb362a2,Fichi
+c7ca5251-f5b3-37ec-91a5-11a73abff9f4,Branzino (spigola)
+ca7c0b8b-541a-33b9-a718-8dc650390af2,Castelmagno
+f2c77ea2-9354-3280-b47c-0de91d54c2e0,Mele Cotogne
+f5f3d1dc-63d6-3fc0-9a52-e7c92274ba08,Mortadella
+ffbc75e8-8a95-3f0a-a9cd-fb2870a5bc05,Piselli surgelati
+d2dd4b58-f230-3202-a249-249b3ed0cffd,Semi di papavero
+280b7239-a80b-37b8-9f49-db7aebde71a9,Zucca butternut
+1ebc2f67-2cb2-32a6-b860-1366553ed83d,Tonno al naturale
+375a36ab-010f-38be-9976-edbf0023472d,Pomodorini
+55e1faa3-6b2b-3a77-b47c-a93416a3c53d,Riso Roma
+36fc435b-52f0-38af-a8ea-9cb0514cb088,Birra Guinness
+5aaa5d5a-b91e-39bc-b6a8-0db62684024b,Prugne
+31e13c28-da4f-3786-8bd7-3e0d8b52b5c8,Latte parzialmente scremato
+4d7b8c4c-8c7f-39c0-8a1b-4e92244ff5ce,Cracker
+013322e6-0478-3c1b-929a-18d971b85aa5,Aneto
+cfa4182f-71fb-3502-890b-981ce4a935cf,Ostia
+95b69cc1-dfc3-3c82-a2a3-79197671fbfb,Cipollotti rossi
+94b755d7-6c68-31b5-9c5d-be6aa92b9e8a,Arachidi
+ff348359-44b4-3460-b7b4-4c1a9f481be9,Ceci precotti
+9d1df83f-ed66-3c71-8323-d93aa8c31f5c,Cannelloni all'uovo
+377c1f01-bd6f-3714-9bdf-ac28979bcaf2,Cicerchie secche
+56e79cb0-6eae-3cf8-a841-1fe943c00c1d,Pepe
+e7b334c3-7d34-3c46-89df-9c2192ec4c54,Semi di girasole
+745c575d-3e05-3d77-a379-8ceec0f3a502,Farina di pistacchi
+4e330007-ade5-36d0-afca-47c02c83d61f,Cioccolato fondente al 70%
+48ec7e42-05d7-373d-ba3e-93474105501b,Gnocchetti Sardi
+bc4fbe0c-75c2-3d16-b74a-cc8ea4595eba,Farina di grano tenero
+40ad56fe-3917-3e41-8085-50b8cd05265b,Formaggio fiscidu
+3613000f-8ad1-38d9-9a30-8fd9530eb263,Menta essiccata
+00e54393-8a4c-38bd-a079-f2bb065bfaaa,Sugo di pomodoro
+ab43298e-fe8f-38fc-a0b6-5bfed4f7eadd,Fave secche
+9a371453-165d-3fb7-b3b1-7afeb60d53cb,Orzo
+16624fa8-4756-3af6-9565-f003fd891ab7,Fagioli rossi secchi
+49852cb4-1480-33c6-9d93-ae9da9ce6fda,Latte di soia
+f13e4920-0d10-398b-be8b-abf0631a1fab,Aceto
+0b51a826-9c8f-3710-8801-1ac2ae8dd89d,Barbabietole precotte
+57a85661-6db3-33eb-abc4-9fe04cff8901,Fragoline di bosco
+a3fd4b80-60d8-3684-a5bf-50632fd0a9e1,Ribes rosso
+7d4e6e70-cc45-3797-85c4-84e99221bc4c,Birra scura
+0fbc2ca8-075f-3dd4-989d-3868994ce325,Zucca mantovana
+44f34f80-7269-3488-b828-b880bcaaeba4,Mostarda mantovana
+f26f815f-064b-3c4e-b194-2bf03b888e1c,Grano cotto
+59958d94-61f6-3b19-9a18-8096120a09a0,Cedro candito
+c3dc8d05-ca89-3739-ad78-ac9aa0c05e53,Acqua di fiori d'arancio
+fa5c12cd-9750-3c57-879b-a92e364d2b77,Formaggio Comtè
+94a4ff22-8f1b-3d46-b939-5a54ef22da1e,Pesche gialle
+d8849927-091b-39ca-af0d-b7d5ae913895,Avena
+5822ecec-708f-3ac6-b496-397e42377e3e,Cranberry
+53b954f1-7495-3388-a6e8-cbec93cdfcde,Cremor tartaro
+afbc20fd-01ad-3195-a2f3-bb99845b5bb1,Germogli di bambù
+28c2ccac-6b76-3bef-b3ce-a9e32ead9174,Pasta di arance
+25870413-c6bf-30ff-8bca-77835cddd8c0,Pasta di mandarini
+df294995-89e0-3bd1-bf8f-588a6aa24ed7,Pasta di limoni
+b96bc078-56e4-374b-bb7f-9035f596cd2d,Mandarini
+48eeef1b-0004-3f42-93ac-e02b80b723ce,Astice
+3e26026c-1029-3b52-a68a-403fc83cab88,Latte in polvere
+9e68c3b1-4227-359a-9170-1c297d1e6a21,Provolone piccante
+46d46d1c-632a-3422-87b0-a4d95b8dd976,Mele
+c457e9a6-263c-3009-b068-6d082c072aee,Cosce di coniglio
+5b7e72ff-6d24-333c-a0f8-dc27853501ca,Burro di cacao
+c186201a-fe32-32c7-bb05-64be5b8af2f7,Monte Veronese
+6b48f830-acca-36e3-addd-a567e1d43567,Scorza di lime
+012d1cf5-d89e-3f01-acb9-7a9a9952c9a5,Bignè
+610a6571-1ba0-3084-883c-46b444e3a908,Farina di castagne
+11a08614-f109-3433-ab29-23d4d77294a4,Aceto balsamico
+368eb855-69ba-32a9-8a89-2cab97dc73dc,Gnocchi di patate
+6be96e9d-e4b9-3694-801a-8c6e084f7f8c,Filetto di maiale
+c260dcf9-f2a0-32d6-b019-f4e79c274f4b,Cipollotti
+cc469d55-1d22-37fe-9e7f-172860e8c1f8,Anice stellato
+b632f2ec-0675-3546-929a-d446e286ed63,Datteri
+0e0108c0-757d-389a-8d08-43996a8e6a68,Fegato di vitello
+bf9a37dd-3e4c-3025-9f74-e71b3465dcbb,Rossese di Dolceacqua
+8309cd7e-af47-3e6a-8371-a75589c7e6d9,Farina di ceci
+851b7f73-c56a-3013-879e-5a84c3634bbd,Gassosa
+55778683-853c-3416-a693-877e72e528de,Pesche
+3d9f0a75-11fb-312a-b7c3-154e741258c2,Ghiaccio
+a6e91ea1-9d0e-32df-8993-a076dffe7f30,Pasta fillo
+547fe0a2-f3e3-3859-aa40-61cff9bdbe6b,Peperoncini piccanti
+3e4e80df-42ff-398d-ba0d-d8afd1dfd767,Essenza di vaniglia
+48f20e9b-6598-3dca-9b3c-54e36a30dd61,Insalata
+16769033-6785-3fb5-9038-1c1b94696517,Rum bianco
+04a7a09c-5756-3287-95c6-e177db5ca7a7,Soda
+07f818f7-32e0-3695-b67d-7f8c4f0ade44,Pasta di curry
+d8892370-5228-3fa1-9d34-760fb9a96678,Fichi secchi
+d4022e4e-1330-3860-a9d6-70e2a94be440,Taleggio
+af7bfb8b-e71d-3982-9fa7-eed23390b030,Barolo
+7189086a-d95b-3d9d-8adf-79ceaeb48356,Limoncello
+746270aa-a71a-3ea6-81f5-019adb7069da,Peperoncino in polvere
+ddb939fa-c4d3-3373-b995-2376b728b52d,Olio di oliva
+17c80f82-780a-34e6-8d53-8fccd16027a6,Vermouth
+32d845b9-299d-3e59-82cd-7b2944ff5d88,Miele di fichi
+6834e723-6468-34c0-9eb6-4fce9f76d0eb,Fusilli Bucati Corti
+c7327ae2-15ec-3d46-96a2-abc5e48712d8,Pecorino toscano
+b2a41322-dad2-30a0-a70c-50784a3712c1,Aroma al limone
+19b6a711-37f1-30e2-bae7-224722f01b6b,Cookies al cioccolato
+3e139927-15d6-3edb-957a-689df7c9a9ab,Ossibuchi di vitello
+a52d19f3-22e9-380d-8893-af2602125182,Zucchero integrale di canna
+d254dafb-6f2c-36f7-a31b-853cd144334d,Latte di riso
+f2c15452-b1e9-3bc4-ae5a-787950b4c022,Merluzzo
+0e552a92-becb-322b-ba3c-6b76b5886f41,Tacos
+6a15c2a5-2472-3166-a1f0-4639de034fde,Peperoncino verde piccante
+2c0dfcd7-a822-3a12-b9d1-52e64cfba310,Pennette Rigate
+1e9b507a-2cfd-39cd-9f78-3bd1d1548fc0,Vodka
+90d61db7-bf36-3f62-ba88-64e7f6676c56,Sedano rapa
+8e19665a-dbb0-3051-b1fe-d21d81658518,Aceto di riso
+6cf90f39-2d2a-3815-8742-d278d73ad592,Alga kombu
+c2dd2bea-8d28-3522-aedd-07b3de86ff99,Spinacini
+7ed03b25-d3b5-3a4e-8894-fdc64978f241,Mele verdi
+bd28b5af-ad25-34ba-81ac-4895f17dd8e4,Sovracosce di pollo
+d490ea28-1d70-3823-89fe-2caa380e1da6,Agnello
+8e198695-8689-3313-ae01-749799c778e7,Riso Ribe
+cafea07f-1110-30ac-934a-f3a438bab49c,Tortillas
+d831acb6-4f3e-390c-b347-84ef856f6aa8,Cheddar
+07c3c0d9-5723-324c-8a0c-e17e4035fa06,Peperoncini tondi piccanti
+2310904f-20ee-3022-ab33-7109ab7eb519,Marmellata di prugne
+067bbb0a-964a-3b11-a930-07a57f89c99b,Fiori eduli
+5867c8f7-e0fc-3851-a492-3f97234ddc0d,Triglie
+5471fce6-4163-3d1b-b761-5b069b437757,Merluzzetti
+b8c03c74-bad8-3027-ad8a-91e5458ceb44,Cepole
+7fa9d0ff-2353-33ac-8d67-b0d67d16f8c0,Cavolo cappuccio
+752dd780-5755-3f3f-a769-ea041f117766,Yogurt alla frutta
+d4e5a6d2-7e26-3115-8757-cfebb94be821,Mix di farine senza glutine
+cf0d1367-aee8-3b4a-a7db-94654756cadd,Lievito di birra secco senza glutine
+20ad9486-b669-345b-b718-99003a945425,Birra
+214ef220-ed2e-3785-b185-4b69ed8c9e53,Burrata
+24fbbfdc-a6ec-3cea-a73b-9ebf82a72a80,Cavolo cappuccio rosso
+b61ba59f-f3f4-3674-b2ea-41d2d1ce8a55,Noci
+23290cf6-9661-372a-b3f1-61846313beca,Pepe bianco in grani
+4c245fde-13b6-358a-ae86-3d3dbd9338a1,Pancetta dolce
+06b8ce79-d33e-3862-91e1-0ca87264130a,Salsa di pomodoro
+7ce0e855-5ce0-3d64-a486-d2bb07467763,Cappone
+bce2b665-3909-3738-8d4a-baf941dbabf7,Cotechino
+5094a8a9-dd93-3c17-87c5-1f4b1f141893,Aceto di vino rosso
+ec733851-5fbc-3b1c-870b-19de1b06211a,Sogliola
+b9bcecb9-540a-37a0-aee9-e29b6dfc3fa2,Tortiglioni Integrali
+ea5d9dc8-4433-3861-9587-e63db368c1f2,Ravanelli
+a821abba-ff13-3adf-b2bc-829e23518924,Mezze Penne Rigate
+934535de-f65d-3ac8-b77c-7892e29fd75f,Uva passolina
+d56308fe-b4d2-3dc8-bb23-e0391b9d7421,Brodo di pesce
+e691ee6f-6156-3276-b193-1bba58b15697,Mele stark
+53aa6b73-7a62-3f12-b7f7-eae874c37846,Pancarrè
+51e05501-0564-3426-9773-8b39738d8007,Semolino
+c7b6871d-3d84-3b85-81b8-b4e0d262a5b5,Conchiglioni
+608b1643-594f-31c2-bb6f-51d187bcf5e7,Curry thai verde
+123c1485-454c-3926-b899-2fc1f77ae6ea,Sedanini Rigati
+239e1cdb-f421-3552-9836-3c4220dd2a51,Frutta fresca
+d5a23987-14e1-3597-8a20-05cf78ab2b17,Tartufi di cioccolato
+ba46027b-8ccb-3e7d-b7cc-f6c781192f1a,Pomodorini in scatola
+58d12a59-2064-3803-b702-bbc15e8fae02,Risotto allo zafferano
+59671d14-503b-30f4-ab3c-4e69d8899034,Montasio
+ba2b7887-9c17-3678-862c-79c59fb4fb14,Grasso di prosciutto crudo
+6dd6e5aa-50fb-39a7-b70f-10d86303231a,Gelatina
+48d412c9-c922-3f76-b66d-42b84de80c53,Ciliegie
+81bcfa99-5b09-347b-ae92-5d784b6b797a,Kirsch
+5ae0ca23-36dc-3f43-bdac-9e53316d20bd,Triple sec
+12e5f119-ef0a-362a-a6c4-58a1d29e66d8,Tequila
+b7b3cd49-f102-3983-9ddf-5185deabb02d,Vin santo
+9485489a-9579-3b8d-9b0d-6a0b4dd8ff1c,Panini per hamburger
+14164b10-8b7c-39cc-8100-66a36f0cfecb,Caciocavallo silano
+89793b0e-2899-3a43-be74-da9b0086964a,Pomodorini secchi sottolio
+3c94eeef-c992-302f-9cae-00e5b806e5dd,Margarina vegetale
+9e3172b0-b53c-3dad-8336-e81e8b27a978,Cavoletti di Bruxelles
+767c7315-a539-3b07-82fc-2343aa235c6b,Spaghetti di soia
+b96d8684-ae22-3c35-812d-540af524008a,Fiori di zucca
+367a2a1e-0452-3fdb-aafa-257694b09d92,Fagioli cannellini precotti
+01bf8dc5-e544-38bd-b0e6-cb65cc0e00b9,Fagioli dall'occhio secchi
+c19a4783-1a6b-3c16-9c52-54a482dc0b96,Polpa di granchio
+eab3324e-99d4-3698-8904-eeb2c56be9ce,Crema pasticcera
+ba426f78-7f8a-392c-92c5-614a094e2095,Carrè di maiale
+07f9ffed-6e1a-3fdd-893d-961fafae90a5,Petto d'anatra
+b7518a80-711a-337b-84ba-6c8086406835,Insalata misticanza
+bc441bfa-5ed0-364c-bfb8-5509cc62cb27,Pennette Rigate Integrali
+c5de76e8-a6ff-3e9e-bb8b-994e41a58731,Fiocchi di latte
+45e23cdc-4cf0-3d36-aff8-12c9c417fc4f,Coda di vitellone
+dd84debb-9a7a-3a6b-8141-f969e1f74826,Asparagi bianchi
+3b770912-9bcb-3ded-8e92-8c7988ff2f11,Cicoli
+cc09800c-be02-3c02-b712-514b78fdabe2,Caramelle di zucchero colorate
+044170d1-d46a-3957-bb2e-c1aa16c63127,Zucchine bianche
+9b5e1932-c3c9-3fa7-a22d-a0d8e2b25c62,Fagioli borlotti
+e4a2a7a1-4848-3b11-9eca-3c33d5348e8f,Funghi
+dc6227ef-0613-3131-8d6f-00d749500464,Aperol
+b45e964c-6ee1-3ffb-a888-363dae5bc0b5,Prosecco
+3f7262ca-297f-3ca0-8bd1-c4c461dd2a37,Pepe rosa
+b85e8928-ef9a-33e0-9272-6f20fe3eab32,Spaghettini Integrali
+4677f6a4-eef5-3189-b932-caff743e1c8e,Succo di mandarino
+aa743cb1-a624-38e9-b099-328cdef82e23,Scorza di mandarino
+17ed6032-aac6-3906-9dba-ab26bdd126a8,Pancia di maiale
+23bfcd5a-6aee-362b-9dc8-3dc04b097154,Niboshi
+c8f58d57-7675-3a18-ad05-5bdd7ad30354,Katsuobushi
+d3fd64c4-6834-3397-9762-efffba2506b7,Tamari
+2512ea99-2c0c-32ad-84be-ce56c11ecac5,Sake
+9c97e63d-1ffe-3821-a01f-9ef113e97a51,Mirin
+c6dd00dc-41b8-352e-aa29-7a45e3a2ed26,Moscardini
+f80775a7-c930-3128-91eb-cc4e4d2677d0,Strozzapreti
+2f2c8e72-6982-3d35-9783-3de043467b68,Canocchie
+626fe966-c501-3839-b448-259b44af8e51,Olio di cocco
+e52f47a4-0c1f-398e-a665-09826e214cac,Noci pecan
+64d5e346-c5ad-3021-bdb2-cfeb4b9e760b,Lardo di Colonnata
+c07c7d35-49a1-3009-a5aa-4907260f473c,Pancetta arrotolata
+c4dde227-1d69-310f-a200-1e194c8db7b0,Amido di mais (maizena) senza glutine
+cd9e0d9d-3840-303a-83c1-68e9f100b989,Vitellone
+13e0d559-a876-30bd-aa53-04ce8e3c017c,Fior di sale
+fad972ae-5d9b-35bb-ad1d-f26f4734e836,Entrecote
+73751f95-f6c5-3f3f-8c22-9088eab9fd28,Bietole
+1ec38b06-dd60-37f1-bbf4-dba0c82d5b9f,Riso Bomba
+151b83dd-4407-31a3-bc19-f6858ce5cbcb,Fumetto di crostacei
+e7d762a5-9470-3f26-a896-90f1b5166a8e,Peperoncino dolce
+f7b0fb81-b5c5-3326-a2b4-126b849c9018,Semi di lino
+27172cad-8daf-3489-acce-5a57aabcf0e0,Yogurt greco 2% di grassi
+28b5687d-32f7-3f8b-af6b-614851aad5e7,Trentingrana
+6f144f9b-f24a-38e9-b0d2-6b93c8a109aa,Amaro
+cae90e20-332e-3c93-8e0f-34bbbfe3ebde,Riso integrale
+5a61c1af-13e8-331b-a59d-3491e7e53879,Farina di farro
+c80d5016-49c7-331c-8755-9dbfbeb779b6,Vino
+74c105e6-1a1a-384d-af56-29644b37c860,Codette colorate
+0ac088fa-fbbc-343f-b049-3bc02fa98310,Uva passa sultanina
+b1019b07-9aab-300e-b8c0-210ef065b0d9,Frutti di cappero 
+18536ea0-965a-3044-bc35-cb9e89d119b9,Pipe Rigate
+5febf163-1f42-3287-bc49-9a58df8d2977,Cipolle borettane
+d40e6bac-e6fc-3b70-bc6f-c564e71259de,Braciole di maiale
+05963852-4da0-378f-8906-957dff07233d,Crescenza
+48010823-5d04-35cd-b035-cd9f778e0684,Lenticchie rosse decorticate
+e7bb6696-dede-34ec-8c13-e68390cbe4b4,Piselli secchi
+4a735f5a-2b85-3170-b117-4fc309b7b9b0,Farro
+7bb5f5a9-9aff-304e-894c-aba0247accc8,Ditaloni
+678a1a1d-c1f2-3742-81c5-f5e7889b1d22,Riso
+e5a55e95-ab13-3ac6-b6ef-654403b99feb,Fegatini di pollo
+cafe6e64-6beb-3f02-98a6-ebda0f8ea9ce,Funghi secchi
+1ad25d26-7333-3e43-943c-ec08c1b31787,Penne Rigate Bio
+4f98655f-4e59-36f3-90c0-aaf0cdd0a27b,Pane carasau
+51fb76ed-e1a7-3c84-a6e6-6a583b7001a0,Formaggio a pasta filata
+6617adae-f8bd-3c51-87d9-0a2160b83150,Coriandolo in polvere
+6c499cb1-d75a-322a-bb43-3b12c50738ae,Mais
+4b2bf0d6-8d5a-3147-947b-0979cbb504e5,Uva fragola
+16239de9-fd43-3aaf-83c8-332ec628d8b7,Pectina
+db4701f4-877a-3e18-b156-6b44c06d1ab8,Formaggio fresco
+d28f8a7f-5b63-384e-9341-dc677c6b2a54,Oro alimentare
+6404d44f-3d97-3784-af0e-de946039dfc6,Semi di coriandolo
+eaee7083-3bde-372c-8cdf-526f500c8cc7,Pepe di Caienna
+267bfba9-e712-3b39-b54b-237b8af7a99d,Pistacchi non salati
+6b54388c-e974-33dc-aee6-a9dcf4213d91,Semi di sesamo nero
+d964cc5e-642c-3a73-9dab-3cefceb3c79e,Crostini di pane
+9cc1fed5-eaa4-3975-9305-df23184fc7ed,Sambuco
+96472ec1-0edb-3e05-a6f1-a5078c4c61b6,Senape all'antica
+1c9cf0aa-9474-397a-b767-2b746ca4dbc6,Capesante
+3f9c3434-51ff-371e-8cad-bdc1759d8c3f,Pasta Mista
+59643dee-0967-3dfd-a891-1a7ffc5a451c,Farina istantanea per polenta taragna
+3f325c25-ab1e-3f61-b8bf-f97796a60879,Asiago
+70fd914f-7d75-3b64-b624-458c7eeebde6,Salamella Mantovana
+00526604-edf9-382c-9827-a60a9ff245fa,Cachi
+77cd657d-f063-358d-8919-494a298c0aeb,Granella di mandorle
+cb097a1c-0161-36b2-82a7-ed530d971bed,Cioccolato fondente al 60%
+882ec3b0-9a74-3283-b0c4-3f67c0498b49,Frutto della passione
+617d3b8f-9d94-3c0f-9811-5f8b107228e2,Mango
+e97fcb97-c4dc-3d13-a627-a2d91dc11fce,Granella di cioccolato
+bb81da3d-d1f5-3278-8d3c-1a3f80764708,Gallina
+8d2ce832-f0ff-3c43-9076-2944e4819be6,Formaggio latteria
+076e94fe-6f7d-3698-8266-190be857a3f2,Sale marino integrale
+9fc06ca7-3358-3a89-a06a-24150f59da53,Insalata russa
+88826863-bc24-3688-b386-67eb7e8d0f3f,Stracciatella
+72efe544-8f05-3fb8-a25c-5757c0a1554e,Patè di olive nere
+fb55a92b-1da8-3f66-bd1d-ca70ef1cfd0a,Carciofi sott'olio
+57b20b5c-18a3-3043-9063-fea0c920d847,Topinambur
+4bae1a62-9acb-3e58-a10b-65254f108295,Macarons
+52bb6bab-4e27-3e00-b9b2-db336cd81666,Scialatielli
+3b4cbd38-f23d-34f0-97f7-e91d64017672,Nduja
+899ecc83-bd2a-3f95-8e1f-6740f558658c,Ribes
+640aca83-8f0d-36f2-96e6-8be7ccbe6da8,Cotenna di suino
+96d4af4a-b69a-381b-8056-7f24f0d2afbd,Garganelli all'uovo
+89a939fd-eea6-3fbd-8be3-92da95466792,Confettura di frutti di bosco
+a7190bfb-b87e-3c5f-8e3c-08854fafb2ce,Liquirizia
+ab2b4b79-c97d-355a-bac1-6821c0250390,Campari
+d43e8f58-fa1e-304e-b8ba-0506b842cbb3,Gin
+d0bcc223-5c2d-370d-9334-f65b417ae1d7,Burro acido
+227c011b-3732-3903-b48c-9572ad2bd2c5,Pere Decana
+9a477710-4b79-3193-92cd-779a192496cb,Marsala all'uovo
+13913a4c-f8cb-3263-8677-b68431a85b6d,Farina di farro integrale
+d15bd9cd-e7c8-383a-8eab-cd4943e705bf,Yogurt greco 0% di grassi
+a37daed1-2613-31c0-9901-47dbb86d989f,Verzini
+f6c4107d-709f-30c9-b8c9-8436a7f2069e,Caciottina
+45869580-eb02-35df-9acc-0d263e5101b4,Fagiolini piattoni
+5643e223-a4a0-3da6-8740-be548203a435,Tortiglioni
+e0db1adc-2ebd-3d57-b61f-5979cce6dec3,Pak choi
+41f51e2a-f38f-3e68-9dd9-cad1395f3f0f,Songino
+f12ea62a-aa76-3ec9-9b59-e5f3bf0acf04,Farina per pinsa
+3d4a0bfb-f798-3e1a-9a2d-ac009c203c45,Orata
+61ef8fad-39fc-3495-b74b-8959d50dc258,Tomini
+7005d18f-fa7d-388b-9794-aae72910f038,Riso nero Venere
+64250be3-2927-3a3b-b4e7-91c428b039b9,Farina di mais bramata
+92e44873-9f1c-3047-ac86-a3bebb1202f6,Panko 
+0e1a2d6c-b34a-36c8-a3ed-8fa8980a1374,Pisto
+210fbddf-2311-31a3-a86a-2f87c1944c5d,Amaretto (liquore)
+f73b9ebb-4cde-338f-b5e3-1b56b465e6ec,Baguette
+a7c83e4c-ab11-36fd-933b-04a016b982f4,Dragoncello
+6d1b4abf-0fb1-330b-bbe6-b6c285c82fda,Mele Granny Smith
+1ee7aeda-3118-30f7-9850-0388204dab0a,Confettura di pesche
+da33d034-f36f-3e3b-b5ca-df3d9a57c46f,Tartufo bianco
+b39e68b5-4964-3abb-8136-0d3877a91340,Ricotta salata
+1c411327-e592-32b3-9def-30e27983f534,Taccole
+e89740e6-7155-3828-92e9-b7ef06242aae,Alchechengi
+f86b7cbc-7b2e-3280-be45-f4f79dbda21d,Salsa ai mirtilli
+d592038e-4073-3012-8a50-5e16787a5ea0,Biga
+cde53413-b0a4-347b-bc63-8d418540ae80,Sciroppo di glucosio
+82faec61-db38-3090-84ee-48fe03d1ed2d,Tagliatelle di riso
+d5053d9b-8a08-3d8b-9de3-c39cbde8da55,Germogli di soia
+df55c9fa-3073-3bb9-bdd7-52cf0ba08887,Pasta di pesce
+c38744b0-f2ce-3fef-933a-b9cbebf0b394,Succo di tamarindo
+cf6225aa-3c0d-329f-ae4d-be3e75c3cfe8,Nero di seppia
+bc97180c-5ee3-377f-9387-bde8cad26aad,Bacon
+0b19249b-e8e8-3f87-ad9d-6531e8625741,Tacchino
+54e4f10a-ea04-3812-82f1-db44ef886fbf,Farina di riso senza glutine
+de07431a-ffbc-33c5-9f4f-f4c61d8fefa1,Lievito in polvere per dolci senza glutine
+7b7045a9-56a0-3778-a58f-3ad83c9f9802,Semi misti
+59230184-d70a-33c2-a9d9-065db5436ff4,Guancia di maiale
+b36f0c3d-c65b-3dfe-a7b8-04f6f06a2e99,Orzo perlato
+73a1e795-4a84-364b-8c41-aed6e1f1a5d9,Spalla di maiale
+3da00f14-ebbf-3a4e-b93c-c519a8f78a2b,Anice in polvere
+9571eb1f-b02e-3ee5-9607-23f7b2e67416,Cellentani
+692f7b09-b47f-3452-b9a6-38f4be5e0581,Pesche noci
+3e61412d-8707-33bc-9b4b-c23f7aaa99a2,Burro salato
+90ea4fdd-7a26-31ca-a07e-7d6fc9a0b6b1,Sale affumicato
+491a8bf8-0aee-3eb1-a682-9f2e066c07a2,Pepe di Sichuan
+03e48257-8e78-3f5e-b0f2-a14f79abab53,Pere
+65198e1f-2177-39db-9ca1-8d0de382606f,Bottarga di tonno
+a2978cdb-3ea4-324a-b426-bf93c337ba71,Reblochon
+e001194b-6cc9-32e8-9c97-62cefb205e24,Mazzancolle
+e6adb282-c230-3e26-a03d-1279c3dfa512,Pomodorini gialli
+2d1f32b0-d1f7-3c29-9cb4-9059192e3fa8,Cacao crudo in polvere
+695c0125-1ce4-3e7a-b8df-2ed09fcbbc30,Cardamomo
+c5fe3102-1f19-3709-9f01-3cb9d47dfccf,Olive nere greche
+8738e7f1-704d-37db-90ab-c86c75002423,Foglie di cappero in salamoia
+2ef76996-5363-35fa-badf-798b5a241ffa,Riso per sushi
+18273f42-d67a-3b33-9e7c-8885fcbda004,Filetti di tonno
+99d67b65-fd48-31b2-8159-68c573a16fcc,Semi di chia
+8b5ae346-a9b8-31a2-8cd9-638822abcfb7,Miele di erica
+afcce1b5-d7b2-3b99-8c95-62de58b1e2f3,Caffè in polvere
+c07e461c-2003-37ed-be44-56436db6fc19,Formaggio di montagna
+848ba0f9-c564-306d-84b1-8286c8338df3,Crostacei
+ba5058b4-73b2-399f-87d6-8f34faf264e1,Mortadella di fegato
+5db6965d-9742-31ce-8783-51ca39efcabb,Salsa cocktail
+673c35d5-132a-32f8-9b5b-b112e1f39650,Salsa verde
+714e26e7-b9db-3135-9da9-b97f59d1d58e,Salsa rossa (salsa rubra)
+8d454617-2c2a-3309-b2d8-9d45ae9fb206,Troccoli
+9f530791-9c80-3290-a440-1e3040be4b36,Pomodori secchi
+af9da78e-c8f3-34b2-93d4-9be2db7db31b,Lingua salmistrata
+56163653-063e-33cf-a224-c88a882d1698,Patate viola
+05898a42-8563-350a-8590-02476a07268c,Lattuga iceberg
+f7278307-02c4-3870-8b3e-412710ab9795,Pennette rigate 5 cereali
+db9c3613-bcda-3b3e-9428-0262b9a2a64d,Nutella®
+ebca3c57-f24d-3973-a739-26ea44c50e46,Olive baresane
+82c8ad38-0f07-3d03-9855-44a80b0d843e,Sfoglie per involtini
+e997f119-c687-324b-b480-c4bd3d2df50e,Troccoli freschi
+b19795ff-916a-37f3-b441-b6c25aa795fe,Cotenna di prosciutto crudo
+b3332bb1-7aab-397e-80a3-29dbea704376,Mele Ambrosia
+990be5fd-6ae2-321f-b6c6-d3823eb55e96,Spalmabile alla ricotta
+b9699b8d-8d53-3942-acd3-34344fb2f31c,Sedani Rigati
+2c3d8c0b-861d-3c1c-9ae6-950e188c2b3e,Pomodori costoluti
+85c7058a-134f-36d2-b6b6-10deec297842,Patate fritte
+16911c6c-0d26-392a-ae86-48f49b76a856,Pesto di rucola
+70ccd9c9-729d-3390-beaf-71f8fe2878c3,Orecchiette
+c6918cef-5bf2-35c9-9b8d-bfcb54e59194,Gallinella
+be88c65c-619a-3ace-9632-94b0d895df7d,Fagioli neri secchi
+a7c7faa4-4e62-341c-b252-183c7fc8c711,Tortilla chips
+0b38e536-775f-3550-9569-29d41e2b4033,Pan brioche
+4d6b71b1-65dc-32c2-bdf6-77466594e88f,Semi di anice
+02523604-cb6d-3496-8037-81510f479f67,Vongole veraci
+d604c192-adf2-3cd1-a722-4c787184969c,Melanzane ovali nere
+7ef462db-0d4c-3a55-adde-c40c6e73a42e,Confettura
+c59d5266-12f0-379b-943d-4d08e5872281,Panini ai cereali
+36f8a00e-cb4c-3483-bdbc-46c858fc6d47,Cioccolato fondente al 60-69%
+4a608db0-892a-365c-87c8-1792e07baad3,Cosciotto d'agnello
+a63b2424-e507-352c-9aec-f09bb5c25cfc,Melanzane tonde
+393a33b9-4616-3e39-bb53-e2f7b6032649,Spaghetti di riso
+f0b1bc07-9e38-3cf0-bdd3-2917014f9818,Miele di castagno
+6b501b8c-74fd-39b9-b76b-188abe0e5940,Catalogna
+95eedd84-2778-32a5-a939-5331d35b7219,Cicorino
+b5c6af8c-3618-3d30-be3f-5cb419a7a5e9,Pasta di salame
+b8d0f531-4d5d-3215-b224-01c7e56fd916,Cocco
+36c0a16c-c944-3893-bd42-7ed8ad558779,Fusilli Senza Glutine
+1bbe5b33-3ee6-3133-97ab-c1ea115a8e58,Pandoro
+3aeae546-5763-341f-991c-5810fb28d6cc,Erbe aromatiche
+ac050d1e-1dfd-3d56-9e85-01ce7c642a5f,Confettini colorati
+ccaf4fb0-a23b-3492-a7c0-b088d64d4c28,Anice nero
+a4e8972f-8c27-372d-997b-06697c298f07,Codette al cacao
+93e35aa0-0451-3be8-b668-f3fdc2b4060d,Rotella di liquirizia
+d307ff18-3301-32db-8650-9f1de7e5f886,Gocce di cioccolato bianco
+679dfb18-720f-3838-8a6e-bb718189820b,Farina di segale
+ef58903c-260c-3368-9435-81dce4b879e4,Latte senza lattosio
+6c9f2592-9fcf-34e5-8f90-214dd5e13002,Cacao amaro in polvere senza lattosio
+dd80f35f-73cf-3f1e-a8ec-03624c0a21af,Reginette
+e1890235-9057-3777-80c1-bf460362ad13,Cioccolato gianduia
+922223d5-b8b0-3e21-af80-822bf7966505,Fusilloni
+09b07dba-1d73-33a4-b645-5f30420a01c4,Funghi prataioli
+ca5b226b-127d-3bae-aabe-8fca00529b5d,Mele Fujion
+39c27328-c2ba-3889-994c-9df0981712b6,Zucchero grezzo di canna
+5a129bb7-ed5c-34b1-9d7a-ccaca4fae79b,Carta di riso

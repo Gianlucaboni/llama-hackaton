@@ -6,7 +6,7 @@ authors = ["Omar Amer"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.10,<4.0"
 langgraph = "^0.2.53"
 langchain-core = "^0.3.21"
 langchain-community = "^0.3.8"
@@ -15,7 +15,24 @@ llama-index = "^0.12.1"
 llama-index-llms-ollama = "^0.4.1"
 googlemaps = "^4.10.0"
 geopy = "^2.4.1"
+langchain-ollama = "^0.2.0"
+python-dotenv = "^1.0.1"
+llama-index-llms-groq = "^0.3.0"
+groq = "^0.12.0"
+langchain-groq = "^0.2.1"
+black = "^24.10.0"
+fatsecret = "^0.4.0"
+rauth = "^0.7.3"
+scipy = "^1.14.1"
+streamlit = "^1.40.2"
+pinecone = {version = "^5.0.1", extras = ["grpc"]}
+google-api-core = "^2.23.0"
+protoc-gen-openapiv2 = "^0.0.1"
+grpcio = "^1.68.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
