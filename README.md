@@ -1,4 +1,4 @@
-#ChefChatBot with LangGraph Agent and Groq-powered LLAMA Model
+# ChefChatBot with LangGraph Agent and Groq-powered LLAMA Model
 
 ## Overview
 
