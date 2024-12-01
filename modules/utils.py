@@ -1,6 +1,5 @@
-import json
 from langchain_core.messages import ToolMessage
-from typing import  List, Dict
+from typing import  List, Dict, Any
 from langchain.agents import tool
 from langchain_groq import ChatGroq
 import os 
@@ -12,9 +11,12 @@ from langchain.agents import create_react_agent, AgentExecutor
 from langchain import hub
 from langchain.sql_database import SQLDatabase
 from langchain.prompts import PromptTemplate
+from langchain_core.output_parsers import JsonOutputParser
 from langchain_community.agent_toolkits.sql.toolkit import SQLDatabaseToolkit
 import logging
-import datetime
+from pinecone.grpc import PineconeGRPC as Pinecone
+from openai import OpenAI
+import pandas as pd
 import sqlite3
 
 # Load environment variables
@@ -33,6 +35,8 @@ llm = ChatGroq(
     max_retries=2,
     api_key=GROQ_API_KEY,
 )
+from typing import Annotated, List, Dict, Literal, Optional
+from pydantic import BaseModel, Field
 
 
 # ~~~~~~~~~~~~~ FatSecret Init ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -40,77 +44,110 @@ CONSUMER_KEY_FATSECRET = os.getenv("CONSUMER_KEY_FATSECRET")
 CONSUMER_SECRET_FATSECRET = os.getenv("CONSUMER_SECRET_FATSECRET")
 fs = Fatsecret(CONSUMER_KEY_FATSECRET, CONSUMER_SECRET_FATSECRET)
 
+PINECONE_KEY = os.getenv("PINECONE_KEY")
+pc = Pinecone(api_key=PINECONE_KEY)
+# Define a Pydantic model for the recipe schema
+# Recipe Schema Definition
+class FoodItem(BaseModel):
+    foodID: str
+    quantity: float
+    measurement: str
 
-# ~~~~~~~~~~~~~~~~~~System Message, to update as new tools are added ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+class RecipeSchema(BaseModel):
+    day: str
+    recipeID: str
+    typeMeal: str
+    userID: str
+    foodItems: List[FoodItem]
+    description: str
+
+
 system_message = """
-                You are RecipeHero, an advanced AI assistant designed to simplify meal planning and nutrition. Alongside offering expert nutritional advice, you can engage in casual conversations to make the user experience more enjoyable. Your key features include:
+                You are ChefChatBot, an advanced AI assistant designed to simplify meal planning and nutrition. 
+                Beyond providing expert nutritional advice, you can engage in casual conversations to make 
+                the user experience more enjoyable. Your key features include:
 
                 Core Capabilities:
-                1. Nutritional Insights: Retrieve detailed nutrient data for foods using the FatSecret API.
-                2. Food Optimization: Calculate ideal food quantities using the optimizer, which is pre-configured with dietary goals—no need to ask users for them.
-                3. Meal Tracking and Planning: Query past meals or planned ones with the diet_explorer tool. This helps users monitor their dietary habits effortlessly.
-                4. Saving Meals: Use the diet_manager tool to save meals in the diet table, ensuring proper tracking of users' meal choices.
-                5. Recipe Suggestions: By default, propose creative and delicious recipes when users seek inspiration for meals or new ideas.
+                1. **Nutritional Insights**: Retrieve detailed nutrient data for foods using the FatSecret API.
+                2. **Food Optimization**: Calculate ideal food quantities using the optimizer, pre-configured with 
+                   dietary goals—no need to ask users for them.
+                3. **Meal Tracking and Planning**: Use the diet_explorer tool to query past meals or planned ones, 
+                   helping users monitor their dietary habits effortlessly.
+                4. **Retrieve Well Known Recipes**: Retrieve standard recipes from a catalog of well-known dishes.
+                5. **Recipe Creation**: Generate creative and balanced recipes from scratch tailored to users' dietary 
+                   needs or preferences.
+
+                **How You Can Help**:
+                - You can either **create a new recipe** from scratch based on the user’s needs or preferences, 
+                  or **retrieve a well-known recipe** from a catalog. 
+                - Please ask the user whether they want to create a recipe or find an existing one when they request 
+                  a recipe.
 
                 Conversational Ability:
-                - You can handle casual conversations, respond naturally to user inputs, and suggest meals or recipes even when users aren t explicitly asking for them. Your tone is friendly, engaging, and helpful.
+                - Handle casual conversations and respond naturally to user inputs.
+                - Proactively suggest meals or recipes even when users aren’t explicitly asking for them.
+                - Maintain a friendly, engaging, and helpful tone.
 
                 Guidelines:
-                - For Nutritional Information: Use the FatSecret tools to fetch food-specific data.
-                - For Food Optimization: Switch to the "Optimizer" node and use the quantity_optimizer tool. Assume dietary goals are pre-configured and do not request input about them.
-                - For Meal Tracking: Use the diet_explorer tool. Input natural language queries directly without manually constructing SQL queries.
-                - Examples:
+                - **Nutritional Information**: Use the FatSecret tools to fetch food-specific data.
+                
+                - **Food Optimization**: Switch to the "Optimizer" node and use the quantity_optimizer tool. Dietary 
+                  goals are pre-configured, so avoid asking users about them.
+                
+                - **Meal Tracking**: Use the diet_explorer tool to explore past or planned meals. Input natural language 
+                  queries directly. Do NOT manually attempt constructing SQL queries.
+                    Example:
                     - "What meals have I planned for dinner this week?"
                     - "How many recipes have I tried so far?"
                     - "What did I eat for breakfast last Monday?"
-                - For Saving Meals: Use the diet_manager tool to add meals to the diet table. Input must be formatted as follows:
-                {
-                    "day": "YYYY-MM-DD",
-                    "recipeID": "string",
-                    "userID": "string",
-                    "typeMeal": "string",
-                    "foodItems": [
-                        {"foodID": "string", "quantity": float, "measurement": "string"},
-                        ...
-                    ]
-                }
-                - For Recipe Suggestions: Be creative! Propose interesting and balanced recipes whenever users ask for ideas or inspiration.
+                
+                - **Recipe Suggestions**: Be creative! Propose interesting, balanced recipes whenever users seek 
+                  inspiration.
 
                 Default Behavior:
-                - When users are unsure about what they want, suggest a recipe or engage them with light, food-related conversation.
-                - Always ensure interactions are intuitive and aligned with their dietary needs or preferences.
+                - When users are uncertain about what they want, suggest a recipe or engage them in light, 
+                  food-related conversation.
+                - Always ensure interactions are intuitive, aligned with their dietary needs, and respectful of their preferences.
 
-                With RecipeHero, food planning becomes simpler, healthier, and more delightful. Let s make great meals happen! 
+                With RecipeHero, food planning becomes simpler, healthier, and more delightful. Let's make great meals happen!
             """
-
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Tool node Initialization ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 class BasicToolNode:
-    """
-    A node to execute tools requested in the last AIMessage.
-    """
-
-    def __init__(self, tools: list) -> None:
+    def __init__(self, tools: list,modify_recipe: bool=False) -> None:
         self.tools_by_name = {tool.name: tool for tool in tools}
+        self.modify_recipe = modify_recipe
 
-    def __call__(self, inputs: dict) -> Dict[str, List[ToolMessage]]:
+    def __call__(self, inputs: dict) -> Dict[str, List[Any]]:
         if not (messages := inputs.get("messages", [])):
             raise ValueError("No message found in input")
 
         message = messages[-1]
         outputs = []
-        for i,tool_call in enumerate(message.tool_calls):
+        
+        # Ensure we're working with an AIMessage with tool_calls
+        if not hasattr(message, 'tool_calls'):
+            return {"messages": []}
+
+        for tool_call in message.tool_calls:
             tool_result = self.tools_by_name[tool_call["name"]].invoke(
                 tool_call["args"]
             )
-            outputs.append(
-                ToolMessage(
-                    content=json.dumps(tool_result),
-                    name=tool_call["name"],
-                    tool_call_id=tool_call["id"],
-                )
+            
+            # Create ToolMessage with additional context
+            tool_message = ToolMessage(
+                content=str(tool_result),  # Convert to string instead of JSON
+                name=tool_call["name"],
+                tool_call_id=tool_call["id"],
+                # Add tool_calls to maintain context
+                additional_kwargs={
+                    'tool_calls': [tool_call]
+                }
             )
-        return {"messages": outputs}
+            outputs.append(tool_message)
+        if self.modify_recipe:
+           return {"messages": outputs,"recipes":[tool_result]}
+        return {"messages": outputs,"recipes":None}
     
 # ~~~~~~~~~~~~~~~~~~~~~~~ Tool definitions ~~~~~~~~~~~~~~~~~~~~~~~~~
 @tool
@@ -144,8 +181,8 @@ def quantity_optimizer(selected_food:Dict):
     P = MEAL_WEIGHT * BODY_WEIGHT * 1.5  # Target protein (grams)
     G = MEAL_WEIGHT * 70                 # Target fat (grams)
     C = MEAL_WEIGHT * 150                # Target carbohydrates (grams)
-    K_MAX = MEAL_WEIGHT * 3000           # Maximum calories (kcal)
-    K_MIN = MEAL_WEIGHT * 2500           # Minimum calories (kcal)
+    K_MAX = MEAL_WEIGHT * 2500           # Maximum calories (kcal)
+    K_MIN = MEAL_WEIGHT * 1800           # Minimum calories (kcal)
 
     def compute_macros(q, key):
         return sum(q[i] * selected_food[food][key] / 100 for i, food in enumerate(selected_food))
@@ -211,7 +248,7 @@ def quantity_optimizer(selected_food:Dict):
     return outcome
 
 @tool
-def get_nutrients(food:str) -> Dict:
+def food_info(food:str) -> Dict:
     """
     Retrieves the nutritional information for a specific food item using the FatSecret API.
 
@@ -286,7 +323,7 @@ def diet_explorer(question: str):
         - quantity (FLOAT)
         - measurement (STRING)
         - typeMeal (STRING)
-        - userID (STRING)
+        - userID (STRING) - user "user1"
 
     """
     # Connect to the database and include the "weekly_meals" table
@@ -307,7 +344,8 @@ def diet_explorer(question: str):
 
     # Define the prompt string
     prompt_string = """
-    You are an advanced AI agent specialized in answering queries related to dietary habits, using the schema of a table named `diet` to fetch accurate information. 
+    You are an advanced AI agent specialized in answering queries related to dietary habits of userID = "user1"
+    Using the schema of a table named `diet` to fetch accurate information. 
 
     You don't need to fetch the diet table schema, as that is specified here:
     ### `diet` Table Schema:
@@ -344,7 +382,6 @@ def diet_explorer(question: str):
 
     # Create a PromptTemplate
     prompt = PromptTemplate(input_variables=['agent_scratchpad', 'input', 'tool_names', 'tools'], template=prompt_string)
-    print(prompt)
 
     # Create the SQLDatabaseToolkit
     toolkit = SQLDatabaseToolkit(db=db, llm=llm)
@@ -353,7 +390,6 @@ def diet_explorer(question: str):
     agent = create_react_agent(llm, toolkit.get_tools(), prompt)
     agent_executor = AgentExecutor(agent=agent, 
                                    tools=toolkit.get_tools(), 
-                                   max_execution_time=5,
                                    verbose=True,
                                    handle_parsing_errors=True,
                                    return_intermediate_steps=False
@@ -368,84 +404,155 @@ def diet_explorer(question: str):
         logging.error(f"Error during agent execution: {e}")
         raise
 
-# def parse_recipe_input(file_list):
-#     """
-#     Legge e valida una lista di file JSON per popolare la tabella diet.
 
-#     Args:
-#         file_list (list): Lista di file JSON.
+# Recipe Generation Function
+def generate_recipe_with_llm(
+    userID: str,
+    day: str,
+    typeMeal: str,
+    requirements: str = "",
+    description: str = "",
+    **kwargs
+) -> RecipeSchema:
+    """
+    Generate a recipe using an LLM with explicit schema instructions.
+    """
+    if not userID:
+        raise ValueError("userID is a required parameter")
+    if not day:
+        raise ValueError("day is a required parameter")
+    if not typeMeal:
+        raise ValueError("typeMeal is a required parameter")
 
-#     Returns:
-#         list: Lista di dizionari con i dati da inserire.
-#     """
-#     records = []
+    # Create prompt template
+    prompt_template = f"""
+    You are a professional nutritionist and chef tasked with generating a recipe.
+    If a recipe is already provided, sitcj with it, otherwise make one based on the 
+    requirements
 
-#     for file in file_list:
-#         with open(file, 'r') as f:
-#             content = json.load(f)
-            
-#             # Validazione dei campi principali
-#             for entry in content:
-#                 if not all(key in entry for key in ["date", "recipeID", "userID", "typeMeal", "foodItems"]):
-#                     raise ValueError(f"Missing keys in entry: {entry}")
-                
-#                 # Validazione formato della data
-#                 try:
-#                     datetime.strptime(entry["date"], '%Y-%m-%d')
-#                 except ValueError:
-#                     raise ValueError(f"Invalid date format in entry: {entry['date']}")
+    REQUIRED OUTPUT SCHEMA:
+    {{
+        "day": "YYYY-MM-DD",
+        "recipeID": "unique_identifier",
+        "typeMeal": "breakfast/lunch/dinner/snack",
+        "userID": "user_identifier",
+        "foodItems": [
+            {{
+                "foodID": "string",
+                "quantity": float,
+                "measurement": "string"
+            }}
+        "description": "detailed directions step by step"
+        ]
+    }}
 
-#                 # Itera sugli alimenti della ricetta
-#                 for item in entry["foodItems"]:
-#                     if not all(key in item for key in ["foodID", "quantity", "measure"]):
-#                         raise ValueError(f"Missing keys in food item: {item}")
-                    
-#                     # Preparare una riga per la tabella
-#                     record = {
-#                         "day": entry["date"],
-#                         "recipeID": entry["recipeID"],
-#                         "userID": entry["userID"],
-#                         "typeMeal": entry["typeMeal"],
-#                         "foodID": item["foodID"],
-#                         "quantity": item["quantity"],
-#                         "measurement": item["measure"]
-#                     }
-#                     records.append(record)
+    User Inputs:
+    - Date: {day}
+    - Type of Meal: {typeMeal}
+    - userID : {userID}
+    - Additional Requirements: {requirements}
+    - Description: {description}
+
+    Guidelines:
+    1. STRICTLY FOLLOW the schema.
+    2. Populate all fields with realistic, available data.
+    3. Ensure a nutritionally balanced recipe.
+    4. Provide detailed directions and follow the description if any is given
+
+    IMPORTANT:
+    - Respond ONLY with a valid JSON following the schema.
+    """
+
+
+    # Add LLM invocation here (example for structure, replace `llm.invoke`)
+    try:
+        # Replace with actual LLM integration
+        llm_response = llm.invoke(prompt_template)  # Simulated response
+        #error here !
+        recipe_data = JsonOutputParser(pydantic_object=RecipeSchema).parse(llm_response.content)
+
+        # Return parsed schema
+        return RecipeSchema(**recipe_data)
     
-#     return records
+    except Exception as e:
+        print(f"Error generating recipe: {e}")
+        # Fallback recipe
+        return RecipeSchema(
+            day=day,
+            recipeID=f"fallback_recipe_{day}",
+            typeMeal=typeMeal,
+            userID=userID,
+            foodItems=[
+                FoodItem(foodID="fallback_protein", quantity=150, measurement="grams"),
+                FoodItem(foodID="fallback_carb", quantity=100, measurement="grams"),
+            ],
+            description = ""
+        )
 
-def insert_into_diet(recipe:Dict) -> None:
+# Tool Wrapper
+@tool
+def recipe_generator(
+    userID: str,
+    day: str,
+    meal_type: str,
+    additional_requirements: str = ""
+) -> Dict:
+    """
+    Recipe Generation Tool.
+
+    Generates a personalized recipe tailored to the user's preferences and dietary needs. 
+    This tool uses advanced algorithms to create creative, balanced, and delicious meal ideas.
+    
+    Args:
+        userID (str): User identifier.
+        day (str): Date for the recipe.
+        meal_type (str): Type of meal (breakfast, lunch, dinner, snack).
+        additional_requirements (str): Custom requirements for the recipe.
+
+    Returns:
+        Dict: Generated recipe as a dictionary.
+    """
+    recipe = generate_recipe_with_llm(
+        userID='user1',
+        day=day,
+        typeMeal=meal_type,
+        requirements=additional_requirements,
+        description=""
+    )
+    return recipe
+
+def insert_into_diet(recipe: RecipeSchema) -> None:
     """
     Inserisce i record nella tabella diet.
-
-    Args:
-        recipe (Dict): recipe dictionary object
     """
     connection = sqlite3.connect("local.db")
     cursor = connection.cursor()
     
+    print(recipe.day)  # Accessing the 'day' attribute directly
+    
     try:
-        for item in recipe['foodItems']:
+        for item in recipe.foodItems:  # Accessing the foodItems attribute directly
             query = """
             INSERT INTO diet (day, recipeID, foodID, quantity, measurement, typeMeal, userID)
             VALUES (?, ?, ?, ?, ?, ?, ?)
             """
             cursor.execute(query, (
-                recipe["day"],
-                recipe["recipeID"],
-                item["foodID"],
-                item["quantity"],
-                item["measurement"],
-                recipe["typeMeal"],
-                recipe["userID"]
+                recipe.day,
+                recipe.recipeID,
+                item.foodID,
+                item.quantity,
+                item.measurement,
+                recipe.typeMeal,
+                recipe.userID
             ))
         
         connection.commit()
-        print(f"{len(recipe['foodItems'])} rows inserted into the diet table.")
+        print(f"{len(recipe.foodItems)} rows inserted into the diet table.")
     except sqlite3.IntegrityError as e:
         print(f"Error inserting data: {e}")
     finally:
         connection.close()
+
 
 @tool
 def diet_manager(recipe:Dict) -> Dict:
@@ -474,5 +581,73 @@ def diet_manager(recipe:Dict) -> Dict:
     print(recipe,type(recipe))
     # Inserimento nel database
     insert_into_diet(recipe)
+
+    return recipe
+
+@tool
+def retrieve_recipes(
+    query: str,
+    namespace: str ="recipes",
+    top_k: int = 1,
+    metadata_filters=None,
+) -> pd.DataFrame:
+    """
+    Retrieves the most relevant recipes based on a user's query using a semantic search. 
+    This function performs retrieval-augmented generation (RAG) by searching for recipes 
+    stored in a Pinecone vector database, filtering results using optional metadata, and 
+    ranking the results by similarity.
+
+    The function:
+    - Embeds the user's query into a vector representation.
+    - Normalizes the vector to ensure consistent similarity comparison.
+    - Queries the Pinecone database within the specified namespace.
+    - Retrieves the top-k matching results, including their metadata.
+
+    :param query: The user's search query, which is semantically encoded for retrieval.
+    :param namespace: The namespace within Pinecone to search (default: "recipes").
+    :param top_k: The number of top matching results to return (default: 10).
+    :param metadata_filters: Optional metadata filters to apply when querying the database.
+    """
+
+    def normalize_l2(x):
+        x = np.array(x)
+        if x.ndim == 1:
+            norm = np.linalg.norm(x)
+            if norm == 0:
+                return x
+            return x / norm
+        else:
+            norm = np.linalg.norm(x, 2, axis=1, keepdims=True)
+            return np.where(norm == 0, x, x / norm)
+
+    # Initialize Pinecone index and query embeddings
+    index = pc.Index("llama-hackathon-256")
+
+    # Perform vector search using the embedded query
+    client = OpenAI()
+    # Create embeddings using the client
+    response = client.embeddings.create(
+        model="text-embedding-3-small", input=query, encoding_format="float"
+    )
+    
+    # Cut and normalize the embedding
+    cut_dim = response.data[0].embedding[:256]
+    embedded_query = normalize_l2(cut_dim)
+    search_results = index.query(
+        vector=embedded_query,
+        top_k=top_k,
+        include_metadata=True,
+        namespace=namespace,
+        filter=metadata_filters,
+    )
+    description = search_results.matches[0]["metadata"]["description"]
+    print(description)
+    recipe = generate_recipe_with_llm(
+        userID='user1',
+        day='2024-12-01',
+        typeMeal='lunch',
+        requirements=None,
+        description=description
+    )
 
     return recipe
